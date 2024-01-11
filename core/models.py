@@ -2,8 +2,6 @@ from django.db import models
 from uuid import uuid4 
 from django.core.validators import MinValueValidator
 
-
-
 class ParkingLot(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)
     name = models.CharField(max_length=50)

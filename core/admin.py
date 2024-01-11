@@ -1,4 +1,6 @@
 from django.contrib import admin
-from . import models
+from .models import ParkingLot, Slot, ParkingSession
 
-admin.site.register(models.Slot)
+admin.site.register(ParkingLot)
+admin.site.register(Slot)
+admin.site.register(ParkingSession)

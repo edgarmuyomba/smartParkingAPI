@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'core',
     # third party
     'rest_framework',
-    'multiselectfield',
     # default
     'django.contrib.admin',
     'django.contrib.auth',

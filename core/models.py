@@ -2,15 +2,20 @@ from django.db import models
 from uuid import uuid4 
 from django.core.validators import MinValueValidator
 
+
+
 class ParkingLot(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)
     name = models.CharField(max_length=50)
-    latitude = models.DecimalField(max_digits=9, decimal_places=6, null=True, blank=True)
-    longitude = models.DecimalField(max_digits=9, decimal_places=6, null=True, blank=True)
+    latitude = models.DecimalField(max_digits=18, decimal_places=15, null=True, blank=True)
+    longitude = models.DecimalField(max_digits=18, decimal_places=15, null=True, blank=True)
     rate = models.IntegerField(validators=[MinValueValidator(0)])
     image = models.ImageField(upload_to='parking_lots')
     open = models.TimeField()
     close = models.TimeField()
+    multistoried = models.BooleanField(default=False)
+    number_of_stories = models.IntegerField(validators=[MinValueValidator(1)], default=1)
+    services_provided = models.CharField(max_length=255)
 
     def __str__(self):
         return self.name

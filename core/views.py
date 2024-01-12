@@ -94,3 +94,23 @@ class ReleaseSlot(APIView):
             return Response(data=serializer.data, status=status.HTTP_200_OK)
         else:
             return Response({"detail": "Parking Session Terminated"}, status=status.HTTP_200_OK)
+
+class DeleteParkingLot(generics.DestroyAPIView):
+    queryset = ParkingLot.objects.all()
+    serializer_class = ParkingLotSerializer
+    lookup_field = 'uuid'
+
+    def destroy(self, request, *args, **kwargs):
+        instance = self.get_object()
+        self.perform_destroy(instance)
+        return Response({"details": "Parking Lot deleted successfully"}, status=status.HTTP_200_OK)
+    
+class DeleteSlot(generics.DestroyAPIView):
+    queryset = Slot.objects.all()
+    serializer_class = SlotSerializer
+    lookup_field = 'uuid'
+
+    def destroy(self, request, *args, **kwargs):
+        instance = self.get_object()
+        self.perform_destroy(instance)
+        return Response({"details": "Slot deleted successfully"}, status=status.HTTP_200_OK)

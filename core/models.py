@@ -30,7 +30,7 @@ class Slot(models.Model):
     
 class ParkingSession(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)
-    slot = models.ForeignKey(Slot, on_delete=models.SET_NULL, null=True)
+    slot = models.ForeignKey(Slot, on_delete=models.CASCADE, null=True)
     user_id = models.CharField(max_length=28, null=True, blank=True)
     timestamp_start = models.BigIntegerField()
     timestamp_end = models.BigIntegerField(null=True, blank=True)

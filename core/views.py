@@ -26,7 +26,6 @@ class ParkingSessions(generics.ListAPIView):
 
     def get_queryset(self):
         return super().get_queryset()[:20]
-
     
 class UserSessions(generics.ListAPIView):
     serializer_class = ParkingSessionSerializer
@@ -34,17 +33,16 @@ class UserSessions(generics.ListAPIView):
     def get_queryset(self):
         user_id = self.kwargs['user_id']
         return ParkingSession.objects.filter(user_id=user_id)
-
-    
+   
 class ParkInSlot(APIView):
     def post(self, request, parking_lot_id, slot_id, user_id=None):
         parking_lot = get_object_or_404(ParkingLot, uuid=parking_lot_id)
         slot = get_object_or_404(Slot, uuid=slot_id, parking_lot=parking_lot)
         
-        two_minutes_ago = current_timestamp_in_seconds() - 120
         existing_session = ParkingSession.objects.filter(
             slot=slot,
-            timestamp_start__gte=two_minutes_ago,
+            timestamp_start__isnull=False,
+            timestamp_end__isnull=True,
             user_id__isnull=True  # Only consider sessions without a user_id
         ).first()
 
@@ -75,15 +73,24 @@ class ParkInSlot(APIView):
             else:
                 return Response(parking_session_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             
-
 class ReleaseSlot(APIView):
     def post(self, request, parking_lot_id, slot_id, user_id=None):
         parking_lot = get_object_or_404(ParkingLot, uuid=parking_lot_id)
         slot = get_object_or_404(Slot, uuid=slot_id, parking_lot=parking_lot)
 
+        try:
+            if user_id:
+                parking_session = ParkingSession.objects.get(slot=slot, user_id=user_id, timestamp_end__isnull=True)
+            else:
+                parking_session = ParkingSession.objects.filter(slot=slot, timestamp_end__isnull=True).latest('timestamp_start')
+        except ParkingSession.DoesNotExist:
+            return Response({"detail": "No active parking session found for the given parameters."}, status=status.HTTP_404_NOT_FOUND)
+
+        parking_session.timestamp_end = current_timestamp_in_seconds()
+        parking_session.save()
+
         if user_id:
-            # Need to return extra info about session
-            pass 
+            serializer = ParkingSessionSerializer(parking_session)
+            return Response(data=serializer.data, status=status.HTTP_200_OK)
         else:
-            # sensor triggered
-            pass 
+            return Response({"detail": "Parking Session Terminated"}, status=status.HTTP_200_OK)

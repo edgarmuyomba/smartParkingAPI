@@ -18,7 +18,7 @@ class ParkingLotSerializer(serializers.ModelSerializer):
 class ParkingSessionSerializer(serializers.ModelSerializer):
     lot = serializers.SerializerMethodField()
     slot_number = serializers.SerializerMethodField()
-    parked_at = serializers.SerializerMethodField()
+    parked_on = serializers.SerializerMethodField()
     amount_accumulated = serializers.SerializerMethodField()
 
     class Meta:
@@ -29,7 +29,7 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
             'slot',
             'slot_number',
             'timestamp_start',
-            'parked_at',
+            'parked_on',
             'amount_accumulated',
             'timestamp_end'
         ]
@@ -43,7 +43,7 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
     def get_amount_accumulated(self, obj):
         return hours_between_timestamps(obj.timestamp_start, obj.timestamp_end) * obj.slot.parking_lot.rate 
     
-    def get_parked_at(self, obj):
+    def get_parked_on(self, obj):
         return convert_timestamp(obj.timestamp_start)
 
     def create(self, validated_data):

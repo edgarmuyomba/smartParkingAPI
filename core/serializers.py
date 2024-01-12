@@ -8,10 +8,10 @@ class SlotSerializer(serializers.ModelSerializer):
 
 class ParkingLotSerializer(serializers.ModelSerializer):
     slots = SlotSerializer(many=True, read_only=True)
-    
+
     class Meta:
         model = ParkingLot
-        fields = "__all__"
+        fields = ['uuid', 'name', 'latitude', 'longitude', 'range', 'image', 'open', 'close', 'multistoried', 'number_of_stories', 'services_provided', 'slots']
 
 class ParkingSessionSerializer(serializers.ModelSerializer):
     class Meta:

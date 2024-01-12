@@ -7,32 +7,36 @@ from rest_framework.views import APIView
 from rest_framework import generics
 from rest_framework import status
 from django.shortcuts import get_object_or_404
+from django.db.models import Count
 
 from operator import itemgetter
 from .utils import current_timestamp_in_seconds, haversine_distance
 
-
-class NearestParkingLots(generics.ListAPIView):
-    """
-    Finding the nearest parking lots given the user's coordinates
-    """ 
-    queryset = ParkingLot.objects.all()
-    serializer_class = ParkingLotSerializer
-
-    def get_queryset(self):
-        user_lat = float(self.kwargs['user_lat'])
-        user_lon = float(self.kwargs['user_lon'])
-        parking_lots = super().get_queryset()
+    
+class NearestParkingLots(APIView):
+    def get(self, request, user_lat, user_lon):
+        parking_lots = ParkingLot.objects.all()
+        lots = []
         for parking_lot in parking_lots:
             distance = haversine_distance(
-                user_lat, user_lon,
+                float(user_lat), float(user_lon),
                 float(parking_lot.latitude), float(parking_lot.longitude)
             )
-            parking_lot.distance = distance
-            print(f"********************************{parking_lot.distance}")
+            total_slots = parking_lot.slots.count()
+            occupied_slots = parking_lot.slots.filter(occupied=True).count()
 
-        sorted_parking_lots = sorted(parking_lots, key=itemgetter('distance'))
-        return sorted_parking_lots
+            lots.append({
+                "uuid": str(parking_lot.uuid),
+                "name": parking_lot.name,
+                "image": parking_lot.image.url,
+                "latitude": parking_lot.latitude,
+                "longitude": parking_lot.longitude,
+                "occupancy": f"{occupied_slots}/{total_slots}",
+                "distance": distance
+            })
+
+        sorted_parking_lots = sorted(lots, key=itemgetter('distance'))
+        return Response(sorted_parking_lots, status=status.HTTP_200_OK)
 
 
 class ParkingLots(generics.ListAPIView):

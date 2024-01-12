@@ -37,3 +37,19 @@ class ParkingSession(models.Model):
 
     def __str__(self): 
         return f"{self.timestamp_start} - {self.timestamp_end}"
+    
+class User(models.Model):
+    user_id = models.CharField(max_length=28, unique=True)
+    token = models.BigIntegerField()
+
+    def __str__(self) -> str:
+        return f"User - {self.user_id}"
+
+class Sensor(models.Model):
+    uuid = models.UUIDField(default=uuid4)
+    parking_lot = models.ForeignKey(ParkingLot, on_delete=models.SET_NULL)
+    slot = models.ForeignKey(Slot, on_delete=models.SET_NULL)
+    token = models.BigIntegerField()
+
+    def __str__(self) -> str:
+        return f"Sensor - {self.parking_lot}, {self.slot.slot_number}"

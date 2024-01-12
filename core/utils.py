@@ -15,3 +15,6 @@ def hours_between_timestamps(timestamp1, timestamp2):
     total_hours = (time_difference.total_seconds() + 3600 - 1) // 3600
 
     return int(total_hours)
+
+def current_timestamp_in_seconds():
+    return int(datetime.now().timestamp())

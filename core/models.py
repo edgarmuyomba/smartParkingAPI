@@ -20,10 +20,10 @@ class ParkingLot(models.Model):
     
 class Slot(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)
-    parking_lot = models.ForeignKey(ParkingLot, on_delete=models.CASCADE)
+    parking_lot = models.ForeignKey(ParkingLot, on_delete=models.CASCADE, related_name='slots')
     level = models.IntegerField(default=1, validators=[MinValueValidator(1)])
     slot_number = models.CharField(max_length=5)
-    status = models.BooleanField(default=False)
+    occupied = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.parking_lot}, {self.slot_number}"
@@ -33,7 +33,7 @@ class ParkingSession(models.Model):
     slot = models.ForeignKey(Slot, on_delete=models.SET_NULL, null=True)
     user_id = models.CharField(max_length=28, null=True, blank=True)
     timestamp_start = models.BigIntegerField()
-    timestamp_end = models.BigIntegerField()
+    timestamp_end = models.BigIntegerField(null=True, blank=True)
 
-    def __str__(self):
+    def __str__(self): 
         return f"{self.timestamp_start} - {self.timestamp_end}"

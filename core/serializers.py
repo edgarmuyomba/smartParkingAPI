@@ -49,9 +49,7 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
          return ParkingSession.objects.create(**validated_data)
 
-    # def update(self, instance, validated_data):
-    #     instance.email = validated_data.get('email', instance.email)
-    #     instance.content = validated_data.get('content', instance.content)
-    #     instance.created = validated_data.get('created', instance.created)
-    #     instance.save()
-    #     return instance
+    def update(self, instance, validated_data):
+        instance.timestamp_end = validated_data.get('timestamp_end', instance.timestamp_end)
+        instance.save()
+        return instance

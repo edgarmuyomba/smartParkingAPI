@@ -53,6 +53,7 @@ class ParkingLotSerializer(serializers.ModelSerializer):
         lon = data.get('longitude')
         if ParkingLot.objects.filter(latitude=lat, longitude=lon).exists():
             raise serializers.ValidationError("A Parking Lot in this location already exists.")
+        return data
 
 class ParkingSessionSerializer(serializers.ModelSerializer):
     lot = serializers.SerializerMethodField()

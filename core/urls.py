@@ -16,4 +16,6 @@ urlpatterns = [
     path('delete_parking_lot/<str:uuid>/', views.DeleteParkingLot.as_view(), name='delete_parking_lot'),
     path('create_parking_lot/', views.CreateParkingLot.as_view(), name='create_parking_lot'),
     path('create_slot/', views.CreateSlot.as_view(), name='create_slot'),
+    path('edit_parking_lot/<str:uuid>/', views.EditParkingSlot.as_view(), name='edit_parking_lot'),
+    path('edit_slot/<str:uuid>/', views.EditSlot.as_view(), name='edit_slot'),
 ]

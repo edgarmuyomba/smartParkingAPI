@@ -122,3 +122,13 @@ class CreateParkingLot(generics.CreateAPIView):
 class CreateSlot(generics.CreateAPIView):
     queryset = Slot.objects.all()
     serializer_class = SlotSerializer
+
+class EditParkingSlot(generics.UpdateAPIView):
+    queryset = ParkingLot.objects.all()
+    serializer_class = ParkingLotSerializer
+    lookup_field = 'uuid'
+
+class EditSlot(generics.UpdateAPIView):
+    queryset = Slot.objects.all()
+    serializer_class = SlotSerializer
+    lookup_field = 'uuid'

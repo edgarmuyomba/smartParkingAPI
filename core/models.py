@@ -38,7 +38,7 @@ class User(models.Model):
 class ParkingSession(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)
     slot = models.ForeignKey(Slot, on_delete=models.CASCADE, null=True)
-    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, release_name="sessions")
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, related_name="sessions")
     timestamp_start = models.BigIntegerField()
     timestamp_end = models.BigIntegerField(null=True, blank=True)
 

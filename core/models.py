@@ -28,28 +28,28 @@ class Slot(models.Model):
     def __str__(self):
         return f"{self.parking_lot}, {self.slot_number}"
     
+class User(models.Model):
+    user_id = models.CharField(max_length=28, unique=True, primary_key=True)
+    token = models.BigIntegerField(null=True, blank=True) # change if we implement token auth for the server
+
+    def __str__(self) -> str:
+        return f"User - {self.user_id}"
+    
 class ParkingSession(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)
     slot = models.ForeignKey(Slot, on_delete=models.CASCADE, null=True)
-    user_id = models.CharField(max_length=28, null=True, blank=True)
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, release_name="sessions")
     timestamp_start = models.BigIntegerField()
     timestamp_end = models.BigIntegerField(null=True, blank=True)
 
     def __str__(self): 
         return f"{self.timestamp_start} - {self.timestamp_end}"
-    
-class User(models.Model):
-    user_id = models.CharField(max_length=28, unique=True)
-    token = models.BigIntegerField()
-
-    def __str__(self) -> str:
-        return f"User - {self.user_id}"
 
 class Sensor(models.Model):
     uuid = models.UUIDField(default=uuid4)
-    parking_lot = models.ForeignKey(ParkingLot, on_delete=models.SET_NULL)
-    slot = models.ForeignKey(Slot, on_delete=models.SET_NULL)
-    token = models.BigIntegerField()
+    parking_lot = models.ForeignKey(ParkingLot, on_delete=models.SET_NULL, null=True, blank=True)
+    slot = models.ForeignKey(Slot, on_delete=models.SET_NULL, null=True, blank=True, related_name="sensor")
+    token = models.BigIntegerField(null=True, blank=True) # change if we implement token auth for the server
 
     def __str__(self) -> str:
         return f"Sensor - {self.parking_lot}, {self.slot.slot_number}"

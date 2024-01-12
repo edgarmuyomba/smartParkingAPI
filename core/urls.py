@@ -18,4 +18,11 @@ urlpatterns = [
     path('create_slot/', views.CreateSlot.as_view(), name='create_slot'),
     path('edit_parking_lot/<str:uuid>/', views.EditParkingSlot.as_view(), name='edit_parking_lot'),
     path('edit_slot/<str:uuid>/', views.EditSlot.as_view(), name='edit_slot'),
+    path('sensors/', views.Sensors.as_view(), name="all_sensors"),
+    path('create_sensor/', views.CreateSensor.as_view(), name="create_sensor"),
+    path('edit_sensor/<str:uuid>/', views.EditSensor.as_view(), name="edit_sensor"),
+    path('delete_sensor/<str:uuid>/', views.DeleteSensor.as_view(), name="delete_sensor"),
+    path('create_user/', views.CreateUser.as_view(), name="create_user"),
+    path('edit_user/<str:uuid>/', views.EditUser.as_view(), name="edit_user"),
+    path('delete_user/<str:uuid>/', views.DeleteUser.as_view(), name="delete_user"),
 ]

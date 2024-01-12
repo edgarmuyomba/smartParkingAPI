@@ -1,12 +1,26 @@
 from rest_framework import serializers
-from .models import ParkingLot, Slot, ParkingSession
+from .models import ParkingLot, Slot, ParkingSession, Sensor, User
 
 from .utils import hours_between_timestamps, convert_timestamp
 
+class SensorSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Sensor
+        fields = "__all__"
+
 class SlotSerializer(serializers.ModelSerializer):
+    sensor = SensorSerializer()
+
     class Meta:
         model = Slot 
-        fields = "__all__"
+        fields = [
+            'uuid',
+            'parking_lot',
+            'level',
+            'slot_number',
+            'occupied',
+            'sensor'
+        ]
 
     def validate(self, data):
         level = data.get('level')
@@ -64,7 +78,7 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
     class Meta:
         model = ParkingSession
         fields = [
-            'user_id',
+            'user',
             'lot',
             'slot',
             'slot_number',
@@ -93,3 +107,14 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
         instance.timestamp_end = validated_data.get('timestamp_end', instance.timestamp_end)
         instance.save()
         return instance
+    
+class UserSerializer(serializers.ModelSerializer):
+    sessions = ParkingSessionSerializer(many=True)
+
+    class Meta:
+        model = User
+        fields = [
+            'user_id',
+            'token',
+            'sessions'
+        ]

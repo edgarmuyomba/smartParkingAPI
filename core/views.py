@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from .models import ParkingLot, Slot, ParkingSession
-from .serializers import ParkingLotSerializer, SlotSerializer, ParkingSessionSerializer
+from .models import ParkingLot, Slot, ParkingSession, Sensor, User
+from .serializers import ParkingLotSerializer, SlotSerializer, ParkingSessionSerializer, SensorSerializer, UserSerializer
 from rest_framework.decorators import api_view 
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -132,3 +132,45 @@ class EditSlot(generics.UpdateAPIView):
     queryset = Slot.objects.all()
     serializer_class = SlotSerializer
     lookup_field = 'uuid'
+
+class Sensors(generics.ListAPIView):
+    queryset = Sensor.objects.all()
+    serializer_class = SensorSerializer
+
+class CreateSensor(generics.CreateAPIView):
+    queryset = Sensor.objects.all()
+    serializer_class = SensorSerializer
+
+class EditSensor(generics.UpdateAPIView):
+    queryset = Sensor.objects.all()
+    serializer_class = SensorSerializer
+    lookup_field = 'uuid'
+
+class DeleteSensor(generics.DestroyAPIView):
+    queryset = Sensor.objects.all()
+    serializer_class = SensorSerializer
+    lookup_field = 'uuid'
+
+    def destroy(self, request, *args, **kwargs):
+        instance = self.get_object()
+        self.perform_destroy(instance)
+        return Response({"details": "Sensor deleted successfully"}, status=status.HTTP_200_OK)
+    
+class CreateUser(generics.CreateAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+class EditUser(generics.UpdateAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    lookup_field = 'user_id'
+
+class DeleteUser(generics.DestroyAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    lookup_field = 'user_id'
+
+    def destroy(self, request, *args, **kwargs):
+        instance = self.get_object()
+        self.perform_destroy(instance)
+        return Response({"details": "User deleted successfully"}, status=status.HTTP_200_OK)

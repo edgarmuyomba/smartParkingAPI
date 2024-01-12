@@ -74,3 +74,16 @@ class ParkInSlot(APIView):
                 return Response({"detail": "Parking Session Started"}, status=status.HTTP_201_CREATED)
             else:
                 return Response(parking_session_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            
+
+class ReleaseSlot(APIView):
+    def post(self, request, parking_lot_id, slot_id, user_id=None):
+        parking_lot = get_object_or_404(ParkingLot, uuid=parking_lot_id)
+        slot = get_object_or_404(Slot, uuid=slot_id, parking_lot=parking_lot)
+
+        if user_id:
+            # Need to return extra info about session
+            pass 
+        else:
+            # sensor triggered
+            pass 

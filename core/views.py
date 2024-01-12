@@ -15,18 +15,21 @@ from .utils import current_timestamp_in_seconds, haversine_distance
 class NearestParkingLots(generics.ListAPIView):
     """
     Finding the nearest parking lots given the user's coordinates
-    """
+    """ 
     queryset = ParkingLot.objects.all()
     serializer_class = ParkingLotSerializer
 
-    def get_queryset(self, request, user_lat, user_lon):
+    def get_queryset(self):
+        user_lat = float(self.kwargs['user_lat'])
+        user_lon = float(self.kwargs['user_lon'])
         parking_lots = super().get_queryset()
         for parking_lot in parking_lots:
             distance = haversine_distance(
                 user_lat, user_lon,
-                parking_lot.latitude, parking_lot.longitude
+                float(parking_lot.latitude), float(parking_lot.longitude)
             )
             parking_lot.distance = distance
+            print(f"********************************{parking_lot.distance}")
 
         sorted_parking_lots = sorted(parking_lots, key=itemgetter('distance'))
         return sorted_parking_lots

@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import ParkingLot, Slot, ParkingSession, Sensor, User
+from django.db.models import Count
 
 from .utils import hours_between_timestamps, convert_timestamp
 
@@ -43,6 +44,7 @@ class SlotSerializer(serializers.ModelSerializer):
 class ParkingLotSerializer(serializers.ModelSerializer):
     url = serializers.HyperlinkedIdentityField(view_name='core:parking_lot_details', lookup_field='uuid')
     slots = SlotSerializer(many=True)
+    occupancy = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = ParkingLot
@@ -59,6 +61,7 @@ class ParkingLotSerializer(serializers.ModelSerializer):
             'multistoried', 
             'number_of_stories', 
             'services_provided', 
+            'occupancy',
             'slots'
             ]
         
@@ -68,6 +71,11 @@ class ParkingLotSerializer(serializers.ModelSerializer):
         if ParkingLot.objects.filter(latitude=lat, longitude=lon).exists():
             raise serializers.ValidationError("A Parking Lot in this location already exists.")
         return data
+    
+    def get_occupancy(self, obj):
+        total_slots = obj.slots.count()
+        occupied_slots = obj.slots.filter(occupied=True).count()
+        return f"{occupied_slots}/{total_slots}"
 
 class ParkingSessionSerializer(serializers.ModelSerializer):
     lot = serializers.SerializerMethodField()

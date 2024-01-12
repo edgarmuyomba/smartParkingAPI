@@ -8,12 +8,51 @@ class SlotSerializer(serializers.ModelSerializer):
         model = Slot 
         fields = "__all__"
 
+    def validate(self, data):
+        level = data.get('level')
+        parking_lot = data.get('parking_lot')
+        if parking_lot and level > parking_lot.number_of_stories:
+            raise serializers.ValidationError("The slot level exceeds the number of stories in the parking lot.")
+
+        # Validate unique slot number
+        slot_number = data.get('slot_number')
+        if parking_lot and Slot.objects.filter(parking_lot=parking_lot, slot_number=slot_number).exists():
+            raise serializers.ValidationError("A slot with this slot number already exists in the parking lot.")
+
+        return data
+    
+    def create(self, validated_data):
+        # Set the initial state of the slot to unoccupied
+        validated_data['occupied'] = False
+        return super().create(validated_data)
+
 class ParkingLotSerializer(serializers.ModelSerializer):
+    url = serializers.HyperlinkedIdentityField(view_name='core:parking_lot_details', lookup_field='uuid')
     slots = SlotSerializer(many=True)
 
     class Meta:
         model = ParkingLot
-        fields = ['uuid', 'name', 'latitude', 'longitude', 'rate', 'image', 'open', 'close', 'multistoried', 'number_of_stories', 'services_provided', 'slots']
+        fields = [
+            'url', 
+            'uuid', 
+            'name', 
+            'latitude', 
+            'longitude', 
+            'rate', 
+            'image', 
+            'open', 
+            'close', 
+            'multistoried', 
+            'number_of_stories', 
+            'services_provided', 
+            'slots'
+            ]
+        
+    def validate(self, data):
+        lat = data.get('latitude')
+        lon = data.get('longitude')
+        if ParkingLot.objects.filter(latitude=lat, longitude=lon).exists():
+            raise serializers.ValidationError("A Parking Lot in this location already exists.")
 
 class ParkingSessionSerializer(serializers.ModelSerializer):
     lot = serializers.SerializerMethodField()

@@ -14,4 +14,6 @@ urlpatterns = [
     path('release_slot/<str:parking_lot_id>/<str:slot_id>/', views.ReleaseSlot.as_view(), name="sensor_release_slot"), # initiated by sensor
     path('delete_slot/<str:uuid>/', views.DeleteSlot.as_view(), name="delete_slot"),
     path('delete_parking_lot/<str:uuid>/', views.DeleteParkingLot.as_view(), name='delete_parking_lot'),
+    path('create_parking_lot/', views.CreateParkingLot.as_view(), name='create_parking_lot'),
+    path('create_slot/', views.CreateSlot.as_view(), name='create_slot'),
 ]

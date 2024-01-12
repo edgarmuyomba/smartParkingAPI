@@ -22,7 +22,7 @@ class Slot(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)
     parking_lot = models.ForeignKey(ParkingLot, on_delete=models.CASCADE, related_name='slots')
     level = models.IntegerField(default=1, validators=[MinValueValidator(1)])
-    slot_number = models.CharField(max_length=5)
+    slot_number = models.CharField(max_length=10)
     occupied = models.BooleanField(default=False)
 
     def __str__(self):

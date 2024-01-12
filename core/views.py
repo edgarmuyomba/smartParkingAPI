@@ -114,3 +114,11 @@ class DeleteSlot(generics.DestroyAPIView):
         instance = self.get_object()
         self.perform_destroy(instance)
         return Response({"details": "Slot deleted successfully"}, status=status.HTTP_200_OK)
+
+class CreateParkingLot(generics.CreateAPIView):
+    queryset = ParkingLot.objects.all()
+    serializer_class = ParkingLotSerializer
+
+class CreateSlot(generics.CreateAPIView):
+    queryset = Slot.objects.all()
+    serializer_class = SlotSerializer

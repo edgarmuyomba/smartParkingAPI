@@ -223,3 +223,19 @@ class DeleteUser(generics.DestroyAPIView):
         instance = self.get_object()
         self.perform_destroy(instance)
         return Response({"details": "User deleted successfully"}, status=status.HTTP_200_OK)
+
+class Dashboard(APIView):
+    def get(self, request):
+        users = User.objects.all().count()
+        sensors = Sensor.objects.all().count()
+        parking_sessions = ParkingSession.objects.all()
+        parking_sessions = ParkingSessionSerializer(parking_sessions, many=True).data 
+        parking_lots = ParkingLot.objects.all()
+        parking_lots = ParkingLotSerializer(parking_lots, many=True, context={'request': request}).data 
+        res = {
+            "no_users": users,
+            "no_sensors": sensors,
+            "parking_sessions": parking_sessions,
+            "parking_lots": parking_lots
+        }
+        return Response(res)

@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from math import radians, sin, cos, sqrt, atan2
 from operator import itemgetter
+import locale
 
 def convert_timestamp(timestamp):
     dt_object = datetime.utcfromtimestamp(timestamp)
@@ -20,7 +21,6 @@ def hours_between_timestamps(timestamp1, timestamp2):
 
 def current_timestamp_in_seconds():
     return int(datetime.now().timestamp())
-
 
 def haversine_distance(lat1, lon1, lat2, lon2):
     """
@@ -63,3 +63,12 @@ def process_sessions(sessions):
         except KeyError:
             result[f"{hour}"] = 1
     return result
+
+def format_number(number):
+    # Set the locale to the user's default
+    locale.setlocale(locale.LC_ALL, '')
+
+    # Format the number with commas
+    formatted_number = locale.format_string("%d", number, grouping=True)
+
+    return formatted_number

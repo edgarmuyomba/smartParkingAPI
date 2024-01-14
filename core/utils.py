@@ -52,31 +52,26 @@ def sort_parking_lots_by_distance(user_latitude, user_longitude, parking_lots):
     return sorted_parking_lots
 
 def process_sessions(sessions):
-    result = {}
+    temp = {}
     for session in sessions:
         tmp = session['parked_on'].split(' ')[1]
         hour, min = int(tmp.split(':')[0]), int(tmp.split(':')[1])
         if min > 30:
             hour = hour + 1
         try:
-            result[f"{hour}"] += 1
+            temp[f"{hour}"] += 1
         except KeyError:
-            result[f"{hour}"] = 1
-    return result
-
-def process_lots(lots):
+            temp[f"{hour}"] = 1
     result = []
-    for lot in lots:
-        i, j = int(lot['occupancy'].split('/')[0]), int(lot['occupancy'].split('/')[1])
-        tmp = {
-            "url": lot['url'],
-            "name": lot['name'],
-            "income": i * lot['rate'],
-            "occupancy": round((i/j)*100, 1)
-        }
-        result.append(tmp)
+    for key, value in temp.items():
+        post = "am"
+        if int(key) > 12:
+            post = "pm"
+        result.append({
+            "time": f"{key}{post}",
+            "count": value
+        })
     return result
-
 
 def format_number(number):
     # Set the locale to the user's default
@@ -86,3 +81,16 @@ def format_number(number):
     formatted_number = locale.format_string("%d", number, grouping=True)
 
     return formatted_number
+
+def process_lots(lots):
+    result = []
+    for lot in lots:
+        i, j = int(lot['occupancy'].split('/')[0]), int(lot['occupancy'].split('/')[1])
+        tmp = {
+            "url": lot['url'],
+            "name": lot['name'],
+            "income": format_number(i * lot['rate']),
+            "occupancy": round((i/j)*100, 1)
+        }
+        result.append(tmp)
+    return result

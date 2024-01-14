@@ -10,7 +10,7 @@ from django.shortcuts import get_object_or_404
 from django.db.models import Count
 
 from operator import itemgetter
-from .utils import current_timestamp_in_seconds, haversine_distance, process_sessions, format_number
+from .utils import current_timestamp_in_seconds, haversine_distance, process_sessions, format_number, process_lots
 
     
 class NearestParkingLots(APIView):
@@ -242,6 +242,7 @@ class Dashboard(APIView):
             tmp = lot['occupancy'].split('/')
             total_occupied_slots += int(tmp[0])
             total_slots += int(tmp[1])
+        parking_lots = process_lots(parking_lots)
         res = {
             "no_users": format_number(users),
             "no_sensors": format_number(sensors),

@@ -64,6 +64,20 @@ def process_sessions(sessions):
             result[f"{hour}"] = 1
     return result
 
+def process_lots(lots):
+    result = []
+    for lot in lots:
+        i, j = int(lot['occupancy'].split('/')[0]), int(lot['occupancy'].split('/')[1])
+        tmp = {
+            "url": lot['url'],
+            "name": lot['name'],
+            "income": i * lot['rate'],
+            "occupancy": round((i/j)*100, 1)
+        }
+        result.append(tmp)
+    return result
+
+
 def format_number(number):
     # Set the locale to the user's default
     locale.setlocale(locale.LC_ALL, '')

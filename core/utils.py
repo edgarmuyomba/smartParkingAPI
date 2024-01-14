@@ -86,7 +86,7 @@ def process_lots(lots):
     for lot in lots:
         i, j = int(lot['occupancy'].split('/')[0]), int(lot['occupancy'].split('/')[1])
         tmp = {
-            "url": lot['url'],
+            "uuid": lot['uuid'],
             "name": lot['name'],
             "income": format_number(i * lot['rate']),
             "occupancy": round((i/j)*100, 1)

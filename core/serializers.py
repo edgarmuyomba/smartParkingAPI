@@ -45,6 +45,7 @@ class ParkingLotSerializer(serializers.ModelSerializer):
     url = serializers.HyperlinkedIdentityField(view_name='core:parking_lot_details', lookup_field='uuid')
     slots = SlotSerializer(many=True)
     occupancy = serializers.SerializerMethodField(read_only=True)
+    services_provided = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = ParkingLot
@@ -76,6 +77,9 @@ class ParkingLotSerializer(serializers.ModelSerializer):
         total_slots = obj.slots.count()
         occupied_slots = obj.slots.filter(occupied=True).count()
         return f"{occupied_slots}/{total_slots}"
+    
+    def get_services_provided(self, obj):
+        return obj.services_provided.split(', ') 
 
 class ParkingSessionSerializer(serializers.ModelSerializer):
     lot = serializers.SerializerMethodField()

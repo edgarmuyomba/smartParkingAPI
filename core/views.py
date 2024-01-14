@@ -10,7 +10,7 @@ from django.shortcuts import get_object_or_404
 from django.db.models import Count
 
 from operator import itemgetter
-from .utils import current_timestamp_in_seconds, haversine_distance
+from .utils import current_timestamp_in_seconds, haversine_distance, process_sessions
 
     
 class NearestParkingLots(APIView):
@@ -230,12 +230,24 @@ class Dashboard(APIView):
         sensors = Sensor.objects.all().count()
         parking_sessions = ParkingSession.objects.all()
         parking_sessions = ParkingSessionSerializer(parking_sessions, many=True).data 
+        expected_income = 0
+        for session in parking_sessions:
+            expected_income += session['amount_accumulated']
+        session_data = process_sessions(parking_sessions)
         parking_lots = ParkingLot.objects.all()
         parking_lots = ParkingLotSerializer(parking_lots, many=True, context={'request': request}).data 
+        total_slots = 0
+        total_occupied_slots = 0
+        for lot in parking_lots:
+            tmp = lot['occupancy'].split('/')
+            total_occupied_slots += int(tmp[0])
+            total_slots += int(tmp[1])
         res = {
             "no_users": users,
             "no_sensors": sensors,
-            "parking_sessions": parking_sessions,
+            "expected_income": expected_income,
+            "total_occupancy": round((total_occupied_slots/total_slots)*100, 2),
+            "session_data": session_data,
             "parking_lots": parking_lots
         }
         return Response(res)

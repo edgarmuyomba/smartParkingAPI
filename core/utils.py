@@ -51,3 +51,15 @@ def sort_parking_lots_by_distance(user_latitude, user_longitude, parking_lots):
     sorted_parking_lots = sorted(parking_lots, key=itemgetter('distance'))
     return sorted_parking_lots
 
+def process_sessions(sessions):
+    result = {}
+    for session in sessions:
+        tmp = session['parked_on'].split(' ')[1]
+        hour, min = int(tmp.split(':')[0]), int(tmp.split(':')[1])
+        if min > 30:
+            hour = hour + 1
+        try:
+            result[f"{hour}"] += 1
+        except KeyError:
+            result[f"{hour}"] = 1
+    return result

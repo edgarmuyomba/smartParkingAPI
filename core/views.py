@@ -1,13 +1,13 @@
 from django.shortcuts import render
 from .models import ParkingLot, Slot, ParkingSession, Sensor, User
 from .serializers import ParkingLotSerializer, SlotSerializer, ParkingSessionSerializer, SensorSerializer, UserSerializer
+from .pagination import CustomPagination
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import generics
 from rest_framework import status
 from django.shortcuts import get_object_or_404
-from django.db.models import Count
 
 from operator import itemgetter
 from .utils import current_timestamp_in_seconds, haversine_distance, process_sessions, format_number, process_lots
@@ -188,6 +188,7 @@ class EditSlot(generics.UpdateAPIView):
 class Sensors(generics.ListAPIView):
     queryset = Sensor.objects.all()
     serializer_class = SensorSerializer
+    pagination_class = CustomPagination
 
 
 class CreateSensor(generics.CreateAPIView):

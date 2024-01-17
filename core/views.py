@@ -50,6 +50,12 @@ class ParkingLotDetails(generics.RetrieveAPIView):
     lookup_field = 'uuid'
 
 
+class SlotDetails(generics.RetrieveAPIView):
+    queryset = Slot.objects.all()
+    serializer_class = SlotSerializer
+    lookup_field = 'uuid'
+
+
 class ParkingSessions(generics.ListAPIView):
     queryset = ParkingSession.objects.all()
     serializer_class = ParkingSessionSerializer
@@ -63,7 +69,7 @@ class UserSessions(generics.ListAPIView):
 
     def get_queryset(self):
         user_id = self.kwargs['user_id']
-        return ParkingSession.objects.filter(user_id=user_id)
+        return ParkingSession.objects.filter(user_id=user_id).order_by('-timestamp_start')
 
 
 class ParkInSlot(APIView):

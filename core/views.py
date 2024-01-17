@@ -104,7 +104,7 @@ class ParkInSlot(APIView):
                 parking_session_serializer.save()
                 return Response({"detail": "Parking Session Started"}, status=status.HTTP_201_CREATED)
             else:
-                return Response(parking_session_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+                return Response({"detail": parking_session_serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
 
 
 class ReleaseSlot(APIView):
@@ -121,6 +121,9 @@ class ReleaseSlot(APIView):
                     slot=slot, timestamp_end__isnull=True).latest('timestamp_start')
         except ParkingSession.DoesNotExist:
             return Response({"detail": "No active parking session found for the given parameters."}, status=status.HTTP_404_NOT_FOUND)
+
+        slot.occupied = False
+        slot.save()
 
         parking_session.timestamp_end = current_timestamp_in_seconds()
         parking_session.save()
@@ -140,7 +143,7 @@ class DeleteParkingLot(generics.DestroyAPIView):
     def destroy(self, request, *args, **kwargs):
         instance = self.get_object()
         self.perform_destroy(instance)
-        return Response({"details": "Parking Lot deleted successfully"}, status=status.HTTP_200_OK)
+        return Response({"detail": "Parking Lot deleted successfully"}, status=status.HTTP_200_OK)
 
 
 class DeleteSlot(generics.DestroyAPIView):
@@ -151,7 +154,7 @@ class DeleteSlot(generics.DestroyAPIView):
     def destroy(self, request, *args, **kwargs):
         instance = self.get_object()
         self.perform_destroy(instance)
-        return Response({"details": "Slot deleted successfully"}, status=status.HTTP_200_OK)
+        return Response({"detail": "Slot deleted successfully"}, status=status.HTTP_200_OK)
 
 
 class CreateParkingLot(generics.CreateAPIView):
@@ -200,7 +203,12 @@ class DeleteSensor(generics.DestroyAPIView):
     def destroy(self, request, *args, **kwargs):
         instance = self.get_object()
         self.perform_destroy(instance)
-        return Response({"details": "Sensor deleted successfully"}, status=status.HTTP_200_OK)
+        return Response({"detail": "Sensor deleted successfully"}, status=status.HTTP_200_OK)
+    
+
+class Users(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
 
 class CreateUser(generics.CreateAPIView):
@@ -222,7 +230,7 @@ class DeleteUser(generics.DestroyAPIView):
     def destroy(self, request, *args, **kwargs):
         instance = self.get_object()
         self.perform_destroy(instance)
-        return Response({"details": "User deleted successfully"}, status=status.HTTP_200_OK)
+        return Response({"detail": "User deleted successfully"}, status=status.HTTP_200_OK)
 
 class Dashboard(APIView):
     def get(self, request):

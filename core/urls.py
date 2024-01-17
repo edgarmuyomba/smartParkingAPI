@@ -23,6 +23,7 @@ urlpatterns = [
     path('create_sensor/', views.CreateSensor.as_view(), name="create_sensor"),
     path('edit_sensor/<str:uuid>/', views.EditSensor.as_view(), name="edit_sensor"),
     path('delete_sensor/<str:uuid>/', views.DeleteSensor.as_view(), name="delete_sensor"),
+    path('users/', views.Users.as_view(), name='all_users'),
     path('create_user/', views.CreateUser.as_view(), name="create_user"),
     path('edit_user/<str:uuid>/', views.EditUser.as_view(), name="edit_user"),
     path('delete_user/<str:uuid>/', views.DeleteUser.as_view(), name="delete_user"),

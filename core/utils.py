@@ -5,9 +5,16 @@ import locale
 
 def convert_timestamp(timestamp):
     dt_object = datetime.utcfromtimestamp(timestamp)
-    formatted_date = dt_object.strftime("%dth-%b, %H:%M")
+    formatted_date = dt_object.strftime("%d{S}-%b-%Y, %H:%M").replace('{S}', _ordinal_indicator(dt_object.day))
 
     return formatted_date
+
+def _ordinal_indicator(n):
+    if 10 <= n % 100 <= 20:
+        suffix = 'th'
+    else:
+        suffix = {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')
+    return suffix
 
 def hours_between_timestamps(timestamp1, timestamp2):
     dt1 = datetime.utcfromtimestamp(timestamp1)

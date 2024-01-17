@@ -130,3 +130,8 @@ class UserSerializer(serializers.ModelSerializer):
             'token',
             'sessions'
         ]
+    
+    def to_representation(self, instance):
+        data = super().to_representation(instance)
+        data['sessions'] = sorted(data['sessions'], key=lambda x: x['timestamp_start'], reverse=True)
+        return data

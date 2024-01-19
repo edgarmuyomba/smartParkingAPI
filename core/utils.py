@@ -100,3 +100,7 @@ def process_lots(lots):
         }
         result.append(tmp)
     return result
+
+def get_formatted_date():
+    current_date = datetime.now()
+    return current_date.strftime(f"%A %d{_ordinal_indicator(current_date.day)} %B, %Y")

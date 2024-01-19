@@ -11,6 +11,7 @@ from django.shortcuts import get_object_or_404
 
 from operator import itemgetter
 from .utils import current_timestamp_in_seconds, haversine_distance, process_sessions, format_number, process_lots
+from .reports import Report
 
     
 class NearestParkingLots(APIView):
@@ -239,6 +240,7 @@ class DeleteUser(generics.DestroyAPIView):
         self.perform_destroy(instance)
         return Response({"detail": "User deleted successfully"}, status=status.HTTP_200_OK)
 
+
 class Dashboard(APIView):
     def get(self, request):
         users = User.objects.all().count()
@@ -267,3 +269,10 @@ class Dashboard(APIView):
             "parking_lots": parking_lots
         }
         return Response(res)
+    
+class GetReport(APIView):
+    def get(self, request, type):
+        report_instance = Report(type, request)
+        report = report_instance.get_report()
+        return Response(report)
+        

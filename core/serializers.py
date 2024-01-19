@@ -90,6 +90,7 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
     class Meta:
         model = ParkingSession
         fields = [
+            'uuid',
             'user',
             'lot',
             'slot',

@@ -11,7 +11,11 @@ from django.shortcuts import get_object_or_404
 
 from operator import itemgetter
 from .utils import current_timestamp_in_seconds, haversine_distance, process_sessions, format_number, process_lots
-from .reports import Report
+from .report import Report
+
+import io
+from django.http import FileResponse
+from reportlab.pdfgen import canvas
 
     
 class NearestParkingLots(APIView):
@@ -275,4 +279,3 @@ class GetReport(APIView):
         report_instance = Report(type, request)
         report = report_instance.get_report()
         return Response(report)
-        

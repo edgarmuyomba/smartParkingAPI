@@ -14,7 +14,7 @@ from .utils import current_timestamp_in_seconds, haversine_distance, process_ses
 from .report import Report
 from .reportFile import ReportFile
 
-from django.http import FileResponse
+from django.http import FileResponse, HttpResponse
 
     
 class NearestParkingLots(APIView):
@@ -277,7 +277,11 @@ class GetReport(APIView):
     def get(self, request, type):
         report_instance = Report(type, request)
         report = report_instance.get_report()
-        report_file_instance = ReportFile(type, report)
-        report_file = report_file_instance.get_report_file()
-        return FileResponse(report_file, as_attachment=True, filename=f'{type}_report.pdf')
         # return Response(report)
+
+        report_file_instance = ReportFile(type, report)
+        report_file, file_name, content_type = report_file_instance.get_report_file()
+        response = HttpResponse(report_file, content_type=content_type)
+        response['Content-Disposition'] = f'attachment; filename={file_name}'
+        return response
+    

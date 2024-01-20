@@ -14,16 +14,18 @@ class Report:
 
     def get_report(self):
         function_map = {
-            "occupancy_trends": self.get_occupancy_trends(),
-            "revenue_analysis": self.get_revenue_analysis(),
-            "time_analysis": self.get_time_analysis(),
-            "usage_patterns": self.get_usage_patterns(),
-            "peak_usage_hours": self.get_peak_usage_hours(),
-            "session_duration": self.get_session_duration(),
-            "session_distribution": self.get_session_distribution(),
-            "user_activity": self.get_user_activity(),
+            "occupancy_trends": self.get_occupancy_trends,
+            "revenue_analysis": self.get_revenue_analysis,
+            "time_analysis": self.get_time_analysis,
+            "usage_patterns": self.get_usage_patterns,
+            "peak_usage_hours": self.get_peak_usage_hours,
+            "session_duration": self.get_session_duration,
+            "session_distribution": self.get_session_distribution,
+            "user_activity": self.get_user_activity,
         }
-        return function_map[self.type]
+        
+        report_function = function_map.get(self.type)
+        return report_function()
 
     def get_occupancy_trends(self):
         tmp_parking_lots = ParkingLot.objects.all()

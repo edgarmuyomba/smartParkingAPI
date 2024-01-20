@@ -1,23 +1,63 @@
-import io 
-from django.http import FileResponse 
-from reportlab.pdfgen import canvas 
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
+from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
 
-def some_view(request):
-    # Create a file-like buffer to receive PDF data.
-    buffer = io.BytesIO()
+from io import BytesIO
 
-    # Create the PDF object, using the buffer as its "file."
-    p = canvas.Canvas(buffer)
+class ReportFile:
+    def __init__(self, type, data):
+        self.type = type 
+        self.data = data
+        self.buffer = BytesIO()
 
-    # Draw things on the PDF. Here's where the PDF generation happens.
-    # See the ReportLab documentation for the full list of functionality.
-    p.drawString(100, 100, "Hello world.")
+    def get_report_file(self):
+        report_file_map = {
+            "occupancy_trends": self.get_occupancy_trends(),
+            # "revenue_analysis": self.get_revenue_analysis(),
+            # "time_analysis": self.get_time_analysis(),
+            # "usage_patterns": self.get_usage_patterns(),
+            # "peak_usage_hours": self.get_peak_usage_hours(),
+            # "session_duration": self.get_session_duration(),
+            # "session_distribution": self.get_session_distribution(),
+            # "user_activity": self.get_user_activity(),
+        }
+        return report_file_map[self.type]
+    
+    def get_occupancy_trends(self):
+        doc = SimpleDocTemplate(self.buffer, pagesize=letter)
 
-    # Close the PDF object cleanly, and we're done.
-    p.showPage()
-    p.save()
+        styles = getSampleStyleSheet()
+        header_style = ParagraphStyle('Header1', parent=styles['Heading1'], fontSize=18)
 
-    # FileResponse sets the Content-Disposition header so that browsers
-    # present the option to save the file.
-    buffer.seek(0)
-    return FileResponse(buffer, as_attachment=True, filename="hello.pdf")
+        content = []
+        content.append(Paragraph("Occupancy Trends", header_style))
+        content.append(Paragraph(self.data["date"], styles["BodyText"]))
+        content.append(Paragraph(f"Overall Percentage: {self.data['overall_percentage']}%", styles["BodyText"]))
+        content.append(Paragraph(f"Overall Occupancy: {self.data['overall_occupancy']}", styles["BodyText"]))
+        content.append(Spacer(1, 12)) 
+
+        table_data = [["Parking Lot", "Percentage Occupancy", "Occupancy"]]
+        for lot in self.data["parking_lot_details"]:
+            table_data.append([lot["name"], f"{lot['percentage_occupancy']}%", lot["occupancy"]])
+
+        table_style = TableStyle([
+            ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+            ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+            ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
+        ])
+
+        lot_table = Table(table_data, colWidths=[doc.width / 3.0] * 3) 
+        lot_table.setStyle(table_style)
+
+        content.append(lot_table)
+
+        doc.build(content)
+
+        self.buffer.seek(0)
+
+        return self.buffer

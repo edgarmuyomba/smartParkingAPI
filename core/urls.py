@@ -27,7 +27,7 @@ urlpatterns = [
     path('users/', views.Users.as_view(), name='all_users'),
     path('create_user/', views.CreateUser.as_view(), name="create_user"),
     path('edit_user/<str:uuid>/', views.EditUser.as_view(), name="edit_user"),
-    path('delete_user/<str:uuid>/', views.DeleteUser.as_view(), name="delete_user"),
+    path('delete_user/<str:user_id>/', views.DeleteUser.as_view(), name="delete_user"),
     path('dashboard/', views.Dashboard.as_view(), name="dashboard"),
     path('get_report/<str:type>/', views.GetReport.as_view(), name="get_report"),
 ]

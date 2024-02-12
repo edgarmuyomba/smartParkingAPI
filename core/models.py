@@ -11,6 +11,7 @@ class ParkingLot(models.Model):
     image = models.ImageField(upload_to='parking_lots')
     open = models.TimeField()
     close = models.TimeField()
+    structured = models.BooleanField(default=False) # whether a parking is in a building or not
     multistoried = models.BooleanField(default=False)
     number_of_stories = models.IntegerField(validators=[MinValueValidator(1)], default=1)
     services_provided = models.CharField(max_length=255)
@@ -23,6 +24,8 @@ class Slot(models.Model):
     parking_lot = models.ForeignKey(ParkingLot, on_delete=models.CASCADE, related_name='slots')
     level = models.IntegerField(default=1, validators=[MinValueValidator(1)])
     slot_number = models.CharField(max_length=10)
+    latitude = models.DecimalField(max_digits=18, decimal_places=15, null=True, blank=True) # slot coordinates
+    longitude = models.DecimalField(max_digits=18, decimal_places=15, null=True, blank=True)
     occupied = models.BooleanField(default=False)
 
     def __str__(self):

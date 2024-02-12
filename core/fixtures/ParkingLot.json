@@ -3,255 +3,144 @@
         "model": "core.ParkingLot",
         "pk": 1,
         "fields": {
-            "uuid": "955f5348-00b0-4cca-9101-1719e03b839a",
-            "name": "Kampala City Center",
-            "latitude": "0.3136",
-            "longitude": "32.5811",
-            "rate": 1800,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
+            "uuid": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "name": "College Of Computing",
+            "latitude": 0.331079,
+            "longitude": 32.5702,
+            "rate": 2000,
+            "image": "parking_lots/cocis.png",
+            "open": "07:00:00",
+            "close": "11:00:00",
+            "structured": false,
             "multistoried": false,
-            "number_of_stories": 1
+            "number_of_stories": 1,
+            "services_provided": "Security, CCTV"
         }
     },
     {
         "model": "core.ParkingLot",
         "pk": 2,
         "fields": {
-            "uuid": "478a285f-4b3e-431b-ac09-bd7370892e7d",
-            "name": "Acacia Mall",
-            "latitude": "0.3467",
-            "longitude": "32.5824",
-            "rate": 4700,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
+            "uuid": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "name": "St Francis Chapel",
+            "latitude": 0.332751,
+            "longitude": 32.567273,
+            "rate": 2000,
+            "image": "parking_lots/st_francis.png",
+            "open": "07:00:00",
+            "close": "11:00:00",
+            "structured": false,
             "multistoried": false,
-            "number_of_stories": 1
+            "number_of_stories": 1,
+            "services_provided": "Security, CCTV"
         }
     },
     {
         "model": "core.ParkingLot",
         "pk": 3,
         "fields": {
-            "uuid": "29a13345-be27-4284-ad64-1a8e4c5b8426",
-            "name": "Uganda National Museum",
-            "latitude": "0.3257",
-            "longitude": "32.5829",
-            "rate": 4100,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
+            "uuid": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "name": "Ham Shopping Mall",
+            "latitude": 0.3282114,
+            "longitude": 32.5699057,
+            "rate": 2000,
+            "image": "parking_lots/ham.png",
+            "open": "07:00:00",
+            "close": "11:00:00",
+            "structured": false,
             "multistoried": false,
-            "number_of_stories": 1
+            "number_of_stories": 1,
+            "services_provided": "Security, CCTV"
         }
     },
     {
         "model": "core.ParkingLot",
         "pk": 4,
         "fields": {
-            "uuid": "b1b4ac78-d8ad-457f-9101-00abe759b1ba",
-            "name": "Nakasero Market",
-            "latitude": "0.3202",
-            "longitude": "32.5832",
-            "rate": 1700,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": true,
-            "number_of_stories": 5
+            "uuid": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "name": "Mitchel Parking Lot",
+            "latitude": 0.3327654,
+            "longitude": 32.5685428,
+            "rate": 2000,
+            "image": "parking_lots/mitchel.png",
+            "open": "07:00:00",
+            "close": "11:00:00",
+            "structured": false,
+            "multistoried": false,
+            "number_of_stories": 1,
+            "services_provided": "Security, CCTV"
         }
     },
     {
         "model": "core.ParkingLot",
         "pk": 5,
         "fields": {
-            "uuid": "bfdee87d-1158-4944-854a-af56aaf2f626",
-            "name": "Makerere University",
-            "latitude": "0.3315",
-            "longitude": "32.5691",
-            "rate": 2700,
+            "uuid": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "name": "Library Parking Lot",
+            "latitude": 0.3341201,
+            "longitude": 32.5674173,
+            "rate": 2000,
             "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
+            "open": "07:00:00",
+            "close": "11:00:00",
+            "structured": false,
             "multistoried": false,
-            "number_of_stories": 1
+            "number_of_stories": 1,
+            "services_provided": "Security, CCTV"
         }
     },
     {
         "model": "core.ParkingLot",
         "pk": 6,
         "fields": {
-            "uuid": "49def25a-8006-41df-b3bf-5fde0bcaa2d9",
-            "name": "Mulago Hospital",
-            "latitude": "0.3321",
-            "longitude": "32.5692",
-            "rate": 3000,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": true,
-            "number_of_stories": 3
+            "uuid": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "name": "Jica Parking Lot",
+            "latitude": 0.3342395,
+            "longitude": 32.5655898,
+            "rate": 2000,
+            "image": "parking_lots/jica.png",
+            "open": "07:00:00",
+            "close": "11:00:00",
+            "structured": false,
+            "multistoried": false,
+            "number_of_stories": 1,
+            "services_provided": "Security, CCTV"
         }
     },
     {
         "model": "core.ParkingLot",
         "pk": 7,
         "fields": {
-            "uuid": "e055ca77-4ea4-487c-b998-f348f4f5616f",
-            "name": "Rubaga Cathedral",
-            "latitude": "0.2969",
-            "longitude": "32.5656",
-            "rate": 2300,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
+            "uuid": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "name": "Nana Hostel",
+            "latitude": 0.3250767,
+            "longitude": 32.5664163,
+            "rate": 3000,
+            "image": "parking_lots/nana.png",
+            "open": "07:00:00",
+            "close": "12:00:00",
+            "structured": true,
             "multistoried": true,
-            "number_of_stories": 3
+            "number_of_stories": 2,
+            "services_provided": "Security, CCTV"
         }
     },
     {
         "model": "core.ParkingLot",
         "pk": 8,
         "fields": {
-            "uuid": "e46d89fb-44da-4b84-9149-72b93fdf01c3",
-            "name": "Gaddafi National Mosque",
-            "latitude": "0.3129",
-            "longitude": "32.5762",
-            "rate": 3700,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
+            "uuid": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "name": "Sheraton Hotel",
+            "latitude": 0.3167832,
+            "longitude": 32.5733957,
+            "rate": 5000,
+            "image": "parking_lots/sheraton.png",
+            "open": "08:00:00",
+            "close": "11:00:00",
+            "structured": true,
             "multistoried": true,
-            "number_of_stories": 3
-        }
-    },
-    {
-        "model": "core.ParkingLot",
-        "pk": 9,
-        "fields": {
-            "uuid": "9c7c7805-a72a-4d68-ae48-400977c2c670",
-            "name": "Kololo Independence Grounds",
-            "latitude": "0.3185",
-            "longitude": "32.5815",
-            "rate": 3900,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": true,
-            "number_of_stories": 6
-        }
-    },
-    {
-        "model": "core.ParkingLot",
-        "pk": 10,
-        "fields": {
-            "uuid": "f2fc4e79-1cc7-45d1-a0f7-fceec4030624",
-            "name": "Lugogo Shopping Mall",
-            "latitude": "0.3481",
-            "longitude": "32.6109",
-            "rate": 2700,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": true,
-            "number_of_stories": 2
-        }
-    },
-    {
-        "model": "core.ParkingLot",
-        "pk": 11,
-        "fields": {
-            "uuid": "02896342-055d-4c5b-b88f-36f4269ee535",
-            "name": "Namirembe Cathedral",
-            "latitude": "0.3132",
-            "longitude": "32.5587",
-            "rate": 3200,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": false,
-            "number_of_stories": 1
-        }
-    },
-    {
-        "model": "core.ParkingLot",
-        "pk": 12,
-        "fields": {
-            "uuid": "998a4046-1ec2-468a-a36c-838e1b5762f7",
-            "name": "Kasubi Tombs",
-            "latitude": "0.3309",
-            "longitude": "32.5535",
-            "rate": 4900,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": true,
-            "number_of_stories": 5
-        }
-    },
-    {
-        "model": "core.ParkingLot",
-        "pk": 13,
-        "fields": {
-            "uuid": "2e9ae0a2-5e65-48c5-a473-53312c5221e0",
-            "name": "Kyambogo University",
-            "latitude": "0.3317",
-            "longitude": "32.6064",
-            "rate": 3400,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": false,
-            "number_of_stories": 1
-        }
-    },
-    {
-        "model": "core.ParkingLot",
-        "pk": 14,
-        "fields": {
-            "uuid": "fb06e92e-823e-47a2-b600-08fdad384240",
-            "name": "Centenary Park",
-            "latitude": "0.3139",
-            "longitude": "32.5874",
-            "rate": 1600,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": false,
-            "number_of_stories": 1
-        }
-    },
-    {
-        "model": "core.ParkingLot",
-        "pk": 15,
-        "fields": {
-            "uuid": "8effb310-b181-44b3-bad8-dd2693018874",
-            "name": "Ntinda Trading Center",
-            "latitude": "0.3561",
-            "longitude": "32.6156",
-            "rate": 3300,
-            "image": "parking_lots/blank.jpg",
-            "open": "8:00:00",
-            "close": "22:00:00",
-            "services_provided": "Security, CCTV, Valet Parking",
-            "multistoried": false,
-            "number_of_stories": 1
+            "number_of_stories": 3,
+            "services_provided": "Security, CCTV, Valet"
         }
     }
 ]

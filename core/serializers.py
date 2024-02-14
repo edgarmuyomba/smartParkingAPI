@@ -86,6 +86,7 @@ class ParkingLotSerializer(serializers.ModelSerializer):
 
 class ParkingSessionSerializer(serializers.ModelSerializer):
     lot = serializers.SerializerMethodField()
+    lot_uuid = serializers.SerializerMethodField()
     slot_number = serializers.SerializerMethodField()
     parked_on = serializers.SerializerMethodField()
     amount_accumulated = serializers.SerializerMethodField()
@@ -96,6 +97,7 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
             'uuid',
             'user',
             'lot',
+            'lot_uuid',
             'slot',
             'slot_number',
             'timestamp_start',
@@ -106,6 +108,9 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
 
     def get_lot(self, obj):
         return obj.slot.parking_lot.name 
+    
+    def get_lot_uuid(self, obj):
+        return obj.slot.parking_lot.uuid
 
     def get_slot_number(self, obj):
         return obj.slot.slot_number

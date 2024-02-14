@@ -132,7 +132,7 @@ class ReleaseSlot(APIView):
                 if ParkingSession.objects.filter(slot=slot, timestamp_end__isnull=True).exists():
                     return Response({"detail": "You cannot end a session before the sensor terminates it"}, status=status.HTTP_400_BAD_REQUEST)
                 else:
-                    parking_session = ParkingSession.objects.get(slot=slot, user_id=user_id, timestamp_end__isnull=False)
+                    parking_session = ParkingSession.objects.filter(slot=slot, user_id=user_id, timestamp_end__isnull=False).first()
                     serializer = ParkingSessionSerializer(parking_session)
                     return Response(data=serializer.data, status=status.HTTP_200_OK)
             else:

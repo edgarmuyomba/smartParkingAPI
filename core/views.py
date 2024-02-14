@@ -16,7 +16,7 @@ from .reportFile import ReportFile
 
 from django.http import FileResponse, HttpResponse
 
-    
+
 class NearestParkingLots(APIView):
     def get(self, request, user_lat, user_lon):
         parking_lots = ParkingLot.objects.all()
@@ -65,7 +65,7 @@ class ParkingSessions(generics.ListAPIView):
     serializer_class = ParkingSessionSerializer
 
     def get_queryset(self):
-        return super().get_queryset()[:20] # temporary
+        return super().get_queryset()[:20]  # temporary
 
 
 class UserSessions(generics.ListAPIView):
@@ -95,6 +95,10 @@ class ParkInSlot(APIView):
             return Response({"detail": "Parking Session Active"}, status=status.HTTP_200_OK)
 
         else:
+            if user_id != None:
+                # no existing session. user cannot do their own start
+                return Response({"detail": "You cannot start a session before the sensor detects your car"}, status=status.HTTP_400_BAD_REQUEST)
+
             if slot.occupied:
                 return Response({"detail": "Slot is already occupied."}, status=status.HTTP_400_BAD_REQUEST)
 
@@ -124,8 +128,13 @@ class ReleaseSlot(APIView):
 
         try:
             if user_id:
-                parking_session = ParkingSession.objects.get(
-                    slot=slot, user_id=user_id, timestamp_end__isnull=True)
+                # check if session already ended
+                if ParkingSession.objects.filter(slot=slot, timestamp_end__isnull=True).exists():
+                    return Response({"detail": "You cannot end a session before the sensor terminates it"}, status=status.HTTP_400_BAD_REQUEST)
+                else:
+                    parking_session = ParkingSession.objects.get(slot=slot, user_id=user_id, timestamp_end__isnull=False)
+                    serializer = ParkingSessionSerializer(parking_session)
+                    return Response(data=serializer.data, status=status.HTTP_200_OK)
             else:
                 parking_session = ParkingSession.objects.filter(
                     slot=slot, timestamp_end__isnull=True).latest('timestamp_start')
@@ -137,12 +146,8 @@ class ReleaseSlot(APIView):
 
         parking_session.timestamp_end = current_timestamp_in_seconds()
         parking_session.save()
-
-        if user_id:
-            serializer = ParkingSessionSerializer(parking_session)
-            return Response(data=serializer.data, status=status.HTTP_200_OK)
-        else:
-            return Response({"detail": "Parking Session Terminated"}, status=status.HTTP_200_OK)
+        
+        return Response({"detail": "Parking Session Terminated"}, status=status.HTTP_200_OK)
 
 
 class DeleteParkingLot(generics.DestroyAPIView):
@@ -215,7 +220,7 @@ class DeleteSensor(generics.DestroyAPIView):
         instance = self.get_object()
         self.perform_destroy(instance)
         return Response({"detail": "Sensor deleted successfully"}, status=status.HTTP_200_OK)
-    
+
 
 class Users(generics.ListAPIView):
     queryset = User.objects.all()
@@ -249,13 +254,15 @@ class Dashboard(APIView):
         users = User.objects.all().count()
         sensors = Sensor.objects.all().count()
         parking_sessions = ParkingSession.objects.all()
-        parking_sessions = ParkingSessionSerializer(parking_sessions, many=True).data 
+        parking_sessions = ParkingSessionSerializer(
+            parking_sessions, many=True).data
         expected_income = 0
         for session in parking_sessions:
             expected_income += session['amount_accumulated']
         session_data = process_sessions(parking_sessions)
         parking_lots = ParkingLot.objects.all()
-        parking_lots = ParkingLotSerializer(parking_lots, many=True, context={'request': request}).data 
+        parking_lots = ParkingLotSerializer(
+            parking_lots, many=True, context={'request': request}).data
         total_slots = 0
         total_occupied_slots = 0
         for lot in parking_lots:
@@ -272,7 +279,8 @@ class Dashboard(APIView):
             "parking_lots": parking_lots
         }
         return Response(res)
-    
+
+
 class GetReport(APIView):
     def get(self, request, type):
         report_instance = Report(type, request)
@@ -284,4 +292,3 @@ class GetReport(APIView):
         response = HttpResponse(report_file, content_type=content_type)
         response['Content-Disposition'] = f'attachment; filename={file_name}'
         return response
-    

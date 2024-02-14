@@ -19,6 +19,8 @@ class SlotSerializer(serializers.ModelSerializer):
             'parking_lot',
             'level',
             'slot_number',
+            'latitude',
+            'longitude',
             'occupied',
             'sensor'
         ]
@@ -59,6 +61,7 @@ class ParkingLotSerializer(serializers.ModelSerializer):
             'image', 
             'open', 
             'close', 
+            'structured',
             'multistoried', 
             'number_of_stories', 
             'services_provided', 
@@ -108,7 +111,10 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
         return obj.slot.slot_number
 
     def get_amount_accumulated(self, obj):
-        return hours_between_timestamps(obj.timestamp_start, obj.timestamp_end) * obj.slot.parking_lot.rate 
+        if obj.timestamp_end:
+            return hours_between_timestamps(obj.timestamp_start, obj.timestamp_end) * obj.slot.parking_lot.rate 
+        else:
+            return None
     
     def get_parked_on(self, obj):
         return convert_timestamp(obj.timestamp_start)

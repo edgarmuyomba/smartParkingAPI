@@ -22,6 +22,8 @@ class SlotSerializer(serializers.ModelSerializer):
             'latitude',
             'longitude',
             'occupied',
+            'reserved',
+            'reserve_id',
             'sensor'
         ]
 

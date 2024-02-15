@@ -28,20 +28,31 @@ class NearestParkingLots(APIView):
             )
             total_slots = parking_lot.slots.count()
             occupied_slots = parking_lot.slots.filter(occupied=True).count()
-
-            lots.append({
-                "uuid": str(parking_lot.uuid),
-                "name": parking_lot.name,
-                "image": parking_lot.image.url,
-                "latitude": parking_lot.latitude,
-                "longitude": parking_lot.longitude,
-                "occupancy": f"{occupied_slots}/{total_slots}",
-                "distance": distance
-            })
+            reserved_slots = parking_lot.slots.filter(reserved=True).count()
+            
+            if (occupied_slots + reserved_slots) != total_slots: # return only lots with some parking space
+                lots.append({
+                    "uuid": str(parking_lot.uuid),
+                    "name": parking_lot.name, 
+                    "image": parking_lot.image.url,
+                    "latitude": parking_lot.latitude,
+                    "longitude": parking_lot.longitude,
+                    "occupancy": f"{occupied_slots}/{total_slots}",
+                    "distance": distance
+                })
 
         sorted_parking_lots = sorted(lots, key=itemgetter('distance'))
         return Response(sorted_parking_lots, status=status.HTTP_200_OK)
-
+    
+class NearestOpenSlots(APIView):
+    def get(self, request, parking_lot_id):
+        parking_lot = get_object_or_404(ParkingLot, uuid=parking_lot_id)
+        tmp = []
+        for slot in parking_lot.slots.all():
+            if not slot.occupied and not slot.reserved:
+                tmp.append(slot)
+        serializer = SlotSerializer(tmp, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
 class ParkingLots(generics.ListAPIView):
     queryset = ParkingLot.objects.all()

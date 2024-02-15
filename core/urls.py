@@ -5,6 +5,7 @@ app_name = 'core'
 
 urlpatterns = [
     path('nearest_parking_lots/<str:user_lat>/<str:user_lon>/', views.NearestParkingLots.as_view(), name="nearest_parking_lots"),
+    path('nearest_open_slots/<str:parking_lot_id>/', views.NearestOpenSlots.as_view(), name="nearest_open_slots"), # the nearest unoccupied, unreserved slots
     path('parking_lots/', views.ParkingLots.as_view(), name="all_parking_lots"),
     path('parking_lot_details/<str:uuid>/', views.ParkingLotDetails.as_view(), name="parking_lot_details"),
     path('slot_details/<str:uuid>/', views.SlotDetails.as_view(), name="slot_details"),

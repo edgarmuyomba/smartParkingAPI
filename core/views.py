@@ -114,6 +114,7 @@ class ParkInSlot(APIView):
                 return Response({"detail": "Slot is already occupied."}, status=status.HTTP_400_BAD_REQUEST)
 
             slot.occupied = True
+            slot.reserved = False
             slot.save()
 
             parking_session_data = {
@@ -159,7 +160,35 @@ class ReleaseSlot(APIView):
         parking_session.save()
         
         return Response({"detail": "Parking Session Terminated"}, status=status.HTTP_200_OK)
+    
+class ReserveSlot(APIView):
+    def post(self, request, slot_id, user_id):
+        slot = get_object_or_404(Slot, uuid=slot_id)
+        if slot.occupied:
+            return Response({"detail": "This slot is already occupied by another driver"})
+        elif slot.reserved:
+            return Response({"detail": "This slot is already reserved for another driver"}, status=status.HTTP_400_BAD_REQUEST)
+        else:
+            user = get_object_or_404(User, user_id=user_id)
+            slot.reserve_id = user
+            slot.reserved = True 
+            slot.save()
 
+            return Response({"detail": "You have reserved this slot"}, status=status.HTTP_400_BAD_REQUEST)
+        
+class CancelReservation(APIView):
+    def post(self, request, slot_id, user_id):
+        slot = get_object_or_404(Slot, uuid=slot_id)
+        user = get_object_or_404(User, user_id=user_id)
+        if not slot.reserved:
+            return Response({"detail": "This slot does not have an active reservation"}, status=status.HTTP_400_BAD_REQUEST)
+        elif user.user_id != slot.reserve_id.user_id:
+            return Response({"detail": "Not the driver who made the reservation"}, status=status.HTTP_401_UNAUTHORIZED)
+        else:
+            slot.reserved = False 
+            slot.reserve_id = None 
+            slot.save()
+            return Response({"detail": "Reservation cancelled"}, status=status.HTTP_200_OK)
 
 class DeleteParkingLot(generics.DestroyAPIView):
     queryset = ParkingLot.objects.all()

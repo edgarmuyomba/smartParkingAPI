@@ -3,7 +3,7 @@
         "model": "core.ParkingLot",
         "pk": 1,
         "fields": {
-            "uuid": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "name": "College Of Computing",
             "latitude": 0.331079,
             "longitude": 32.5702,
@@ -21,7 +21,7 @@
         "model": "core.ParkingLot",
         "pk": 2,
         "fields": {
-            "uuid": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "name": "St Francis Chapel",
             "latitude": 0.332751,
             "longitude": 32.567273,
@@ -39,7 +39,7 @@
         "model": "core.ParkingLot",
         "pk": 3,
         "fields": {
-            "uuid": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "e4c2495e-b30f-4209-b427-d5607b010928",
             "name": "Ham Shopping Mall",
             "latitude": 0.3282114,
             "longitude": 32.5699057,
@@ -57,7 +57,7 @@
         "model": "core.ParkingLot",
         "pk": 4,
         "fields": {
-            "uuid": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "name": "Mitchel Parking Lot",
             "latitude": 0.3327654,
             "longitude": 32.5685428,
@@ -75,7 +75,7 @@
         "model": "core.ParkingLot",
         "pk": 5,
         "fields": {
-            "uuid": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "name": "Library Parking Lot",
             "latitude": 0.3341201,
             "longitude": 32.5674173,
@@ -93,7 +93,7 @@
         "model": "core.ParkingLot",
         "pk": 6,
         "fields": {
-            "uuid": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "name": "Jica Parking Lot",
             "latitude": 0.3342395,
             "longitude": 32.5655898,
@@ -111,7 +111,7 @@
         "model": "core.ParkingLot",
         "pk": 7,
         "fields": {
-            "uuid": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "name": "Nana Hostel",
             "latitude": 0.3250767,
             "longitude": 32.5664163,
@@ -129,7 +129,7 @@
         "model": "core.ParkingLot",
         "pk": 8,
         "fields": {
-            "uuid": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "name": "Sheraton Hotel",
             "latitude": 0.3167832,
             "longitude": 32.5733957,

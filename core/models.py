@@ -19,6 +19,13 @@ class ParkingLot(models.Model):
     def __str__(self):
         return self.name
     
+class User(models.Model):
+    user_id = models.CharField(max_length=28, unique=True, primary_key=True)
+    token = models.BigIntegerField(null=True, blank=True) # change if we implement token auth for the server
+
+    def __str__(self) -> str:
+        return f"User - {self.user_id}"
+    
 class Slot(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)
     parking_lot = models.ForeignKey(ParkingLot, on_delete=models.CASCADE, related_name='slots')
@@ -27,16 +34,11 @@ class Slot(models.Model):
     latitude = models.DecimalField(max_digits=18, decimal_places=15, null=True, blank=True) # slot coordinates
     longitude = models.DecimalField(max_digits=18, decimal_places=15, null=True, blank=True)
     occupied = models.BooleanField(default=False)
+    reserved = models.BooleanField(default=False) # reservation system
+    reserve_id = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
 
     def __str__(self):
         return f"{self.parking_lot}, {self.slot_number}"
-    
-class User(models.Model):
-    user_id = models.CharField(max_length=28, unique=True, primary_key=True)
-    token = models.BigIntegerField(null=True, blank=True) # change if we implement token auth for the server
-
-    def __str__(self) -> str:
-        return f"User - {self.user_id}"
     
 class ParkingSession(models.Model):
     uuid = models.UUIDField(default=uuid4, primary_key=True, editable=False)

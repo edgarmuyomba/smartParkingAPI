@@ -3,4160 +3,4800 @@
         "model": "core.Slot",
         "pk": 1,
         "fields": {
-            "uuid": "513acdf5-9b08-44a4-b86e-70bc7b926dac",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "7fa8e01d-316a-48c1-9867-0e92536acc1f",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-1",
             "latitude": 0.331217,
             "longitude": 32.570227,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "EJT70NqxI2aJISLECI48EZ6IgRob"
         }
     },
     {
         "model": "core.Slot",
         "pk": 2,
         "fields": {
-            "uuid": "7ae5d7d7-519f-4d69-a6b0-beb33ca2b7c0",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "a132d18f-d807-450b-bdb2-4b35780ff181",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-2",
             "latitude": 0.331244,
             "longitude": 32.570226,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "w4FRqJN9tT5mO2FfhMpsPjF8Yhui"
         }
     },
     {
         "model": "core.Slot",
         "pk": 3,
         "fields": {
-            "uuid": "16781a20-37c4-4abb-a8f0-351c71b18bdc",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "efee6e84-43d2-4616-8b8e-38f2f1aacc4b",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-3",
             "latitude": 0.33128,
             "longitude": 32.570219,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 4,
         "fields": {
-            "uuid": "10f108e0-fa07-4fb0-bee1-8b78cec824d6",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "70a364da-b0ff-4839-9e42-c233c52bfc20",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-4",
             "latitude": 0.3313,
             "longitude": 32.570214,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 5,
         "fields": {
-            "uuid": "96bbf0df-1403-4281-9ed8-2566050de218",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "b95a679a-9b98-440d-b373-5cb42728aa7f",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-5",
             "latitude": 0.331323,
             "longitude": 32.570212,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 6,
         "fields": {
-            "uuid": "40b57971-1ed0-4ea5-991f-1bcf25f9a9d7",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "4cfc0565-14b9-4c77-80d8-c778a85a9bba",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-6",
             "latitude": 0.33135,
             "longitude": 32.570203,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 7,
         "fields": {
-            "uuid": "f94015b3-5965-493e-ab2c-5b6142e21c6b",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "aec066bb-e41a-4e06-8861-be21e6d0310b",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-7",
             "latitude": 0.331375,
             "longitude": 32.570204,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 8,
         "fields": {
-            "uuid": "180b097a-62a6-4f71-9e7a-1074bea78cea",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "751ea35f-8cec-48c4-a263-da0af218173d",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-8",
             "latitude": 0.331214,
             "longitude": 32.57031,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "OnBSY5v2uaogS5yseexDn0enfZGd"
         }
     },
     {
         "model": "core.Slot",
         "pk": 9,
         "fields": {
-            "uuid": "85f2e0a7-01aa-44c5-b6d6-65932480a0a0",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "4605cd3e-c919-4ef7-88db-3c8ca7c108b7",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-9",
             "latitude": 0.331245,
             "longitude": 32.570315,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "1WRciT5Nq4Lx9XI0OmJsUbbGnGUe"
         }
     },
     {
         "model": "core.Slot",
         "pk": 10,
         "fields": {
-            "uuid": "81dc32cd-97f5-4311-b51f-ce5c3144db31",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "ea15303b-833f-4c04-aba2-9c50dbdfd5bd",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-10",
             "latitude": 0.331268,
             "longitude": 32.570308,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "oo7WQYzcad78sOqktTGVT3up4Eo3"
         }
     },
     {
         "model": "core.Slot",
         "pk": 11,
         "fields": {
-            "uuid": "77657bde-c294-4783-8c18-1cc978429a1d",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "08837e2a-6a0b-45bf-b4e6-4071d4a64a48",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-11",
             "latitude": 0.331295,
             "longitude": 32.570303,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 12,
         "fields": {
-            "uuid": "d26a8ef3-1d5a-44da-8108-0a025c4b93e8",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "a8e51c47-4025-4bda-998b-f58ef9532d18",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-12",
             "latitude": 0.331323,
             "longitude": 32.570298,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "436aVJlmmNyFvuYkZjfVIo1CGoOU"
         }
     },
     {
         "model": "core.Slot",
         "pk": 13,
         "fields": {
-            "uuid": "64133b60-5fc7-4a0a-b85f-0511135af937",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "a428bc93-2a6b-45c0-8b0d-8616549bb278",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-13",
             "latitude": 0.331348,
             "longitude": 32.570296,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 14,
         "fields": {
-            "uuid": "81448362-46f6-41f7-a8c2-9f1e3f25d986",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "0a39059d-a4ce-482d-8422-9b5534a5f38a",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-14",
             "latitude": 0.331375,
             "longitude": 32.570291,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 15,
         "fields": {
-            "uuid": "7db5434c-adf4-468f-a661-46ed1ed040ec",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "70aebb22-bc5e-4253-87a2-b0a64b91def8",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-15",
             "latitude": 0.331121,
             "longitude": 32.570446,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 16,
         "fields": {
-            "uuid": "1ae1a682-b277-41ed-a2e8-43cd5ac20345",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "45119286-c8b6-4764-adc9-c294492e550a",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-16",
             "latitude": 0.331116,
             "longitude": 32.570474,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "TOlbQuwt4EuNPHNi10rKNGco9R17"
         }
     },
     {
         "model": "core.Slot",
         "pk": 17,
         "fields": {
-            "uuid": "8b167719-82d1-4ff0-8667-02a90f9b1534",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "f78d4b5f-3aaf-46c2-b85e-edc427e04e6e",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-17",
             "latitude": 0.331118,
             "longitude": 32.570497,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 18,
         "fields": {
-            "uuid": "4ab92d15-8e4c-483e-877c-6828cd8a855a",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "e0523524-8178-42de-a483-dd0d7df4818f",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-18",
             "latitude": 0.331109,
             "longitude": 32.570524,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 19,
         "fields": {
-            "uuid": "436a52db-ed3d-4caf-92ca-659064fde94e",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "f4b541c9-6e43-4576-a0ed-a29999d98b48",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-19",
             "latitude": 0.331112,
             "longitude": 32.570546,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 20,
         "fields": {
-            "uuid": "bc2f060b-8194-44b4-93ce-22df47f57740",
-            "parking_lot": "4f396899-8f4c-45d0-a4fa-0ea2f3cc9047",
+            "uuid": "dba56844-a231-4609-99ff-1a341ea2e3c0",
+            "parking_lot": "30700f49-4cbd-4255-a40c-f8c8b990d802",
             "level": 1,
             "slot_number": "LV1-20",
             "latitude": 0.331107,
             "longitude": 32.570566,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 21,
         "fields": {
-            "uuid": "ee23f3f2-6cd1-46a9-a9a1-93a020752a83",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "21962934-afac-4fe5-b5ab-e360281f2b0c",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-1",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "2ge6zAvGafJ0Apa1ENb4ANyJN4w6"
         }
     },
     {
         "model": "core.Slot",
         "pk": 22,
         "fields": {
-            "uuid": "9b4fceea-4926-4e33-adea-e698adef5161",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "66ace790-25fa-44fe-98b9-9bdf239da430",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-2",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 23,
         "fields": {
-            "uuid": "accf21b7-1992-4929-b0d9-767f693e5c0f",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "17c8e929-0136-4190-bba0-6c0a631007ea",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-3",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "UGOmDXbLoxXlnprfHBOemlKNJyx7"
         }
     },
     {
         "model": "core.Slot",
         "pk": 24,
         "fields": {
-            "uuid": "8c91d94b-d7fc-4466-b4bc-a9bb7a028018",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "9e7568c4-b46a-4706-832d-54264a118186",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-4",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "tepUw63ktk3YSiExz9ulu3Qgsh6n"
         }
     },
     {
         "model": "core.Slot",
         "pk": 25,
         "fields": {
-            "uuid": "0b1f2799-b83b-4786-833c-a246882c13bd",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "734888e5-b2ad-426e-94d6-29332ffff9e2",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 26,
         "fields": {
-            "uuid": "eca4cd06-7774-4a63-802d-b01c4d32bdb7",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "280ad838-e390-49e5-b050-3d69cf687a5d",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-6",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 27,
         "fields": {
-            "uuid": "cc3a8f4f-f5c0-49cc-8d24-727a350dbd31",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "bd44b8b4-4523-4fb9-9936-4ad06cf800ab",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-7",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "7Ev0CgV5qdCe9Maxnty8ka4pg42S"
         }
     },
     {
         "model": "core.Slot",
         "pk": 28,
         "fields": {
-            "uuid": "81f46246-c9d5-4b15-a576-309ff466f23b",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "f94aa0c0-eb49-49a1-8d55-5a170f0e6aa5",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-8",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 29,
         "fields": {
-            "uuid": "54597803-fa13-4d48-81b4-cad0d0d51569",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "8013a485-d05c-4328-8f9e-66377b5df81c",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-9",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 30,
         "fields": {
-            "uuid": "6679af30-eaf1-4f28-83c4-ff31bed93f2e",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "70dcc871-f82d-4ac0-9cfe-6cbb5c8a83b8",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-10",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 31,
         "fields": {
-            "uuid": "ca41bd81-d1d2-4ca8-882e-b3644611268a",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "1e732b7e-b382-414c-a2ae-23478b286579",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-11",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 32,
         "fields": {
-            "uuid": "926ab10f-6210-458e-bb1e-b5e781161cc1",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "3b281a3c-4dbe-41af-8d2c-1f2ed379a9ae",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-12",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 33,
         "fields": {
-            "uuid": "e52cfe87-aa8c-4263-b988-ffa5190f0182",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "c56c08b4-19e1-4ae8-b20a-cf33c9c9c699",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-13",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "1dS8oX8T7nSSyQmUkppnQ4dVnK9X"
         }
     },
     {
         "model": "core.Slot",
         "pk": 34,
         "fields": {
-            "uuid": "8fc92c29-6319-4ba6-b0fd-ef2a928f43dc",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "3a5b94f7-9c80-4c06-9228-91a368826b06",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-14",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "TpUa0VKcSxR7n4goXBAeEsVZwulW"
         }
     },
     {
         "model": "core.Slot",
         "pk": 35,
         "fields": {
-            "uuid": "23482995-6958-4f37-9498-5f4af30b0b37",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "1739b989-9760-4077-a92d-846104b3b37d",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-15",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 36,
         "fields": {
-            "uuid": "0e25756c-94dc-4b66-8663-6aaed9e48886",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "6bda7b5d-a9ef-4f87-bd16-143e031511f1",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-16",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 37,
         "fields": {
-            "uuid": "8f654d20-8210-4454-be38-60179d4f8b9c",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "2a9fa987-0eb9-458e-9b38-e2dc1106c438",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-17",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 38,
         "fields": {
-            "uuid": "86c73402-9540-43a6-acc4-1a986399e833",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "f59e22de-f638-4ec8-80f4-dd14f5b42106",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-18",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 39,
         "fields": {
-            "uuid": "5aacf2ab-44ab-4226-bf63-bb90c1ee51cf",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "edb17308-b990-474d-9bc5-1f4af936188a",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-19",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 40,
         "fields": {
-            "uuid": "f0f69331-3916-4e20-9a18-1d46e0c4ded5",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "5a9072c6-db64-4047-af51-39432b076905",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-20",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 41,
         "fields": {
-            "uuid": "2d2adb60-6193-4975-9ee6-9a77ff45af3a",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "75174b70-b4a8-4ff9-b0fd-5634c94f1756",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-21",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 42,
         "fields": {
-            "uuid": "0683da2c-e7bb-4957-9f9a-f7e7e0fe51d9",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "446304a5-b65a-4b95-8ca0-42242de33fc1",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-22",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 43,
         "fields": {
-            "uuid": "37b88956-74be-4277-b666-d120b12a6059",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "19bca8f4-b682-4d26-9c74-9fa15eb6bc7f",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-23",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "26yPNC6Knf7NzTJwjWhfqG6PUQvr"
         }
     },
     {
         "model": "core.Slot",
         "pk": 44,
         "fields": {
-            "uuid": "c6f70af6-ea16-4727-9cb9-ad12060a4831",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "62829c42-ce89-4770-8b4d-cab500de38fd",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-24",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "TMxNfk3ZWqY6Butw6BkAgjbsX1k3"
         }
     },
     {
         "model": "core.Slot",
         "pk": 45,
         "fields": {
-            "uuid": "8c3afd23-dd7f-4779-bca2-7a00cdda4b04",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "d313377c-c78a-4c75-b584-cc888398b055",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-25",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 46,
         "fields": {
-            "uuid": "2260fb51-233b-46c5-91e4-569220f94d88",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "a258e723-91ae-4175-b4a3-9d3a54e672e7",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-26",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 47,
         "fields": {
-            "uuid": "cac5836e-0b6c-4ffc-a09b-14587be12260",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "76c11e0e-e258-4006-adac-31471635f031",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-27",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 48,
         "fields": {
-            "uuid": "7aad4d03-4978-4efb-a243-2e125eaff8ff",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "a61132dd-cd9f-4d77-afd3-cdcb10dec8de",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-28",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 49,
         "fields": {
-            "uuid": "f42324e8-8c6d-4d06-a8dd-016083590423",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "aec1f571-f649-4dd6-a25f-c3bd1fe7702b",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-29",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "wD5Sbbw5UURLsWMsOMgzuVfySuuR"
         }
     },
     {
         "model": "core.Slot",
         "pk": 50,
         "fields": {
-            "uuid": "123a7f3f-d734-40e0-936f-93bb8157187d",
-            "parking_lot": "2299144e-ef25-452c-b3ab-c2c0d5b6ac13",
+            "uuid": "2b0ee399-2d07-4e84-83a6-1ab56afc3f9e",
+            "parking_lot": "e9b9af11-c459-4df6-a4c0-c9cf7efd0088",
             "level": 1,
             "slot_number": "LV1-30",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 51,
         "fields": {
-            "uuid": "e724df66-1d62-4cce-af19-802a44d19e1b",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "a995cd2d-48c8-4089-88fa-1a4fffea03af",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-1",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "FCG4cujwY8q37ugULz8BpLufVj5k"
         }
     },
     {
         "model": "core.Slot",
         "pk": 52,
         "fields": {
-            "uuid": "527f23e9-2654-4bc9-8bee-95c16d2a0446",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "fcc2ae63-e06b-4947-8bec-f15de4297717",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-2",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 53,
         "fields": {
-            "uuid": "66f80d35-6bc7-42e2-ab34-e3baf57a2b52",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "60864992-354e-460c-a000-1e14d6053e43",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-3",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "WCkUahCE9KeuuqJ0n8aTjE6otshB"
         }
     },
     {
         "model": "core.Slot",
         "pk": 54,
         "fields": {
-            "uuid": "bfa44bc8-bcf8-4d44-8a43-cc4e3e7f265e",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "03f1ad2a-a091-44cf-bc0e-b6388ad745d9",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-4",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 55,
         "fields": {
-            "uuid": "8058e251-3aba-4f21-9d11-9553e5dd5076",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "bfec974c-7a2e-4fdc-a1e5-99c86883957b",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "yoFv6Jw4ePxp2WPgXG90EtiLAF7D"
         }
     },
     {
         "model": "core.Slot",
         "pk": 56,
         "fields": {
-            "uuid": "e09cb0f0-0033-43ce-8d3a-a5a803068f63",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "e3368cf4-21a2-47ab-b722-4244862a6a9c",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-6",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "EnzwDxVi8sob7NuvkKWihuMJbIbn"
         }
     },
     {
         "model": "core.Slot",
         "pk": 57,
         "fields": {
-            "uuid": "3e6a9d42-9352-4886-89cd-eb037e4a1d2d",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "af21b5aa-e1af-4197-9bc1-08fe61fb17f1",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-7",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 58,
         "fields": {
-            "uuid": "ebfd57d1-45b2-4668-943f-991ca9f48790",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "d841b817-c237-45c1-876d-c7396e87d713",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-8",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 59,
         "fields": {
-            "uuid": "6fcb2893-97ff-4f43-8ff0-185e7e155378",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "1ded39c1-71b4-445d-8e7b-5425b624f3b5",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-9",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 60,
         "fields": {
-            "uuid": "cd54f532-2492-488b-b42d-ba0b3204c795",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "88f20eb2-e3be-47c3-9a4c-7031bad49bd6",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-10",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 61,
         "fields": {
-            "uuid": "5acd56de-330f-41d2-baa4-994015b759df",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "95757486-19b3-48b7-aa9a-ae40bc9f459d",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-11",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 62,
         "fields": {
-            "uuid": "a594dcc1-213b-44cd-9cc2-0e73a3baea50",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "fcaf4818-ca9f-4542-8328-fb9c47a96323",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-12",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 63,
         "fields": {
-            "uuid": "ae09cb73-bd49-47b4-8cfa-bd31746b19ff",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "968a980d-f64e-4b04-b952-46b3e50be714",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-13",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 64,
         "fields": {
-            "uuid": "a61a0875-1ed0-4859-8f06-f06f81f29a5c",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "333d606d-7a8b-41ec-a458-150594c3d161",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-14",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 65,
         "fields": {
-            "uuid": "1df10c52-b654-4fa5-85ab-4baf99e584fc",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "8f682b5f-f808-482b-8c3a-be43bc9c2c79",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-15",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 66,
         "fields": {
-            "uuid": "8b0cd832-d1cb-4514-8dc4-eb518869ad09",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "7d4bd3c5-9ea3-4448-bef2-a9717a2f2eac",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-16",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 67,
         "fields": {
-            "uuid": "6671de44-cb39-4526-b67b-053a4aadd595",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "85e36b5c-261f-4bb8-8d20-677153b2cf78",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-17",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 68,
         "fields": {
-            "uuid": "05ab26c3-3f14-4c7e-a734-86628b9d65db",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "dce84826-54f4-4918-abf3-6db352aac9a3",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-18",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 69,
         "fields": {
-            "uuid": "bb5b7fae-89b5-4d36-80f6-fbe893b9641a",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "55cfe651-c69e-4e4f-beac-2186b07db8d9",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-19",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 70,
         "fields": {
-            "uuid": "10f42472-dd12-40c2-bbee-19f89ef52c5b",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "bab754a2-8911-4ad3-98e0-275464ecd08c",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-20",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 71,
         "fields": {
-            "uuid": "63b07b9e-4fa9-4195-8ac9-18dfb560e59d",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "99b7bcaa-06ee-4dfc-b582-09c9358e5e82",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-21",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 72,
         "fields": {
-            "uuid": "daa705e0-4f93-457b-aa59-581258ea817f",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "8ea2389c-00e1-4eeb-a7f1-04e2491c2031",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-22",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "OL8OMphVP4eNlzYlJO4EgUknumxN"
         }
     },
     {
         "model": "core.Slot",
         "pk": 73,
         "fields": {
-            "uuid": "664fb4c9-f6a3-44e0-abb9-7e3642994a9c",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "c2c91560-603e-4038-9c84-76311dcbc4c0",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-23",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 74,
         "fields": {
-            "uuid": "3ae3286f-1991-4f3b-963f-7d41d95c0c9e",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "6696320d-b232-4386-9f11-b7032f129f9f",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-24",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 75,
         "fields": {
-            "uuid": "c75e74ec-f5d3-496f-8fc6-2c76fa3cfa29",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "5528de6b-fea5-48e7-978a-dda9a465aaa7",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-25",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "SLfpmGKXRnfVfmXWPhoDDOYgYXO8"
         }
     },
     {
         "model": "core.Slot",
         "pk": 76,
         "fields": {
-            "uuid": "678cb561-ed14-4360-94f7-50b62e6364f4",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "5d6a90a3-5caf-4420-80af-fab3062f5893",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-26",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 77,
         "fields": {
-            "uuid": "1765c8c6-fa31-4157-9213-48d058415c8f",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "b7c9fd62-bdfb-4096-925c-d8c239118e99",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-27",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 78,
         "fields": {
-            "uuid": "082610bb-3f1e-4aeb-8b1c-83cccecfb7d1",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "7c4306ea-1535-4655-bb01-c1fc1988d1a1",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-28",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 79,
         "fields": {
-            "uuid": "a09b8b17-c7da-44fa-97a0-f496a445cfc6",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "b1b8b4c1-20ea-4aea-ac76-e1008886f3e4",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-29",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 80,
         "fields": {
-            "uuid": "059705aa-0472-4eb8-a6c7-e977a1214d3e",
-            "parking_lot": "2a7e31d1-e48a-4927-9e68-41238eb3c88c",
+            "uuid": "57ca49f8-c31e-4952-8c41-65cdbd60c1cd",
+            "parking_lot": "e4c2495e-b30f-4209-b427-d5607b010928",
             "level": 1,
             "slot_number": "LV1-30",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 81,
         "fields": {
-            "uuid": "f0aefc76-7e07-4a3b-ace5-1818530b0a67",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "1400e6a6-a05e-4ee3-9c28-bdf5c2018587",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-1",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 82,
         "fields": {
-            "uuid": "00f5e84d-0dcb-4673-8810-ebcd84f3fb4b",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "841185cf-0940-4470-ba21-9ed765ee0018",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-2",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "eC9OdDpJv2Y3m9nwv9wXjdKxv5KF"
         }
     },
     {
         "model": "core.Slot",
         "pk": 83,
         "fields": {
-            "uuid": "df73e334-5fd2-44e1-9184-7bdae4882667",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "2d6df662-c693-435a-bea4-1604f192f4c4",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-3",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 84,
         "fields": {
-            "uuid": "97fd96bd-7b0f-48fa-a561-6cee5e643d38",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "82dabf1a-4a2c-476a-8f4b-e560aa93dc75",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-4",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 85,
         "fields": {
-            "uuid": "ed2e077f-cfaf-4738-93ce-155a8b3162e2",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "daa61bc0-667c-4750-8bf3-356e6387f88a",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "H3XrkPQA9eaLfraxYzepTBrlkCBT"
         }
     },
     {
         "model": "core.Slot",
         "pk": 86,
         "fields": {
-            "uuid": "58b5619e-501d-46b7-af97-873256f3846e",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "27990fd8-fbab-430a-ab89-459769c9707e",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-6",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 87,
         "fields": {
-            "uuid": "4eada497-c94b-4287-9362-9180100ed0b1",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "90aac4a9-3178-46d1-9aba-78926c761ece",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-7",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "FDI8yWWgF7ADLCtYVopQryzAqykH"
         }
     },
     {
         "model": "core.Slot",
         "pk": 88,
         "fields": {
-            "uuid": "6273ebd4-d8c7-4e58-a8f8-973812cb2a3e",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "48250a11-77bf-4744-8d88-ce1368074da3",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-8",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 89,
         "fields": {
-            "uuid": "2d4ba67f-259b-434b-9e11-85bf9393f149",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "36f70275-63a0-4e7b-9f86-d42f6b6948e6",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-9",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 90,
         "fields": {
-            "uuid": "b371dabd-616f-4540-940b-72b6a6c6aa21",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "9427c51f-e710-4f5a-9423-48ee7b8d0b42",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-10",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 91,
         "fields": {
-            "uuid": "934a7a0f-44f2-47d1-9273-96bc554bfef9",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "48403d97-d4bf-41c7-b57e-425e7ae2b5b9",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-11",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "s6zm3iIIaSTtGbfaZOAGqbva0DQy"
         }
     },
     {
         "model": "core.Slot",
         "pk": 92,
         "fields": {
-            "uuid": "ffe7528b-1b8a-4224-8973-063b37f4cc85",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "27b112a3-4981-4f55-963e-23f7feff192e",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-12",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 93,
         "fields": {
-            "uuid": "cde421b5-5fd0-45f7-abe2-43d73d407241",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "2bfde2cf-8e7c-47fd-a673-44b759a2ab71",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-13",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 94,
         "fields": {
-            "uuid": "39feab6a-e365-4f67-8d98-ac05c72203a0",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "140d202e-6921-45ba-8c35-78230a7a9404",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-14",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 95,
         "fields": {
-            "uuid": "b1aac2e1-65d4-4929-b166-bcdb5061f607",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "613403b5-1ccf-4eec-be45-dfc811b4e6ec",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-15",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 96,
         "fields": {
-            "uuid": "8df4f0c1-2f13-4db6-bdcc-5bfb6361d79f",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "77246b07-df15-4b7b-abfa-e668cd87986b",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-16",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 97,
         "fields": {
-            "uuid": "d5a46516-1988-4ddd-8868-402ced5bd3b0",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "3535328f-7b73-4786-a028-566688a762c5",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-17",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 98,
         "fields": {
-            "uuid": "d5edd7b0-0278-4366-a411-53ab20bc5869",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "da1bee57-4dd9-478a-b53d-0757892b9558",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-18",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 99,
         "fields": {
-            "uuid": "72790e3f-83ba-42f6-a952-99383f4d80c1",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "12e5120e-1538-499f-8fe8-075369f97b98",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-19",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 100,
         "fields": {
-            "uuid": "9cf7a989-976b-49f6-a3bc-41fdef4858b9",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "fdebaec2-c7d2-4f04-85f4-8aa1c9475b27",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-20",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 101,
         "fields": {
-            "uuid": "a5b29d4f-707f-4517-9cbf-d41c3ef58670",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "7ccef55f-61f8-4a03-85c0-c9e50cc35b68",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-21",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "1bXiZWwvhiw8vhllkhlRZzGxPQB3"
         }
     },
     {
         "model": "core.Slot",
         "pk": 102,
         "fields": {
-            "uuid": "9319fe01-0055-4ae1-a7fe-83c1b2776dc8",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "dfa525b0-d6bf-47ac-a967-8046dac19348",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-22",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 103,
         "fields": {
-            "uuid": "c3d8ee1f-3278-4889-8a68-7d7bf8b14e9b",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "e4cee335-2018-4e82-ad75-c8694444b468",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-23",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "3glWw9dABAkFqjr5GmHjY3rypDHe"
         }
     },
     {
         "model": "core.Slot",
         "pk": 104,
         "fields": {
-            "uuid": "334dbca0-9c7f-49d8-9d06-39439f6e8567",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "95af55aa-2e85-46e1-935c-00df0bde66c2",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-24",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "HmbXdsbiO8G125RkzfeT28J1Zhbn"
         }
     },
     {
         "model": "core.Slot",
         "pk": 105,
         "fields": {
-            "uuid": "5cca0ec1-0de1-431c-857a-3b53f125a73b",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "54714622-0919-4a8c-a7bd-703f64e5fb2a",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-25",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 106,
         "fields": {
-            "uuid": "ad075a38-c4a4-48d1-b3f4-9f021c18d96e",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "454b071b-91d4-42ee-9f38-b11a9000298d",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-26",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "OQXb9esvdvsKHqdNpoY9WpCTXlvH"
         }
     },
     {
         "model": "core.Slot",
         "pk": 107,
         "fields": {
-            "uuid": "242a63d7-54e2-4cd2-908c-960dcd216d08",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "7517f4ea-bf3b-4b74-b8b3-72c7b0997be5",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-27",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 108,
         "fields": {
-            "uuid": "6cbf0ddd-05e0-4fda-aa1b-350cde68f055",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "f8e5d5c9-e8f2-42f9-9c6c-24e55ce67852",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-28",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 109,
         "fields": {
-            "uuid": "ca6141f1-8d16-4f34-baed-a96acc9d9c3e",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "ad419224-f505-44b8-8382-e1f88285ccc5",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-29",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "Da19jpAyf1V7KhrbYsk1sdF0nvul"
         }
     },
     {
         "model": "core.Slot",
         "pk": 110,
         "fields": {
-            "uuid": "398b5574-372e-48fd-8590-efdf69158cba",
-            "parking_lot": "8d0ec010-3f81-4e0d-83c6-483a9c70936c",
+            "uuid": "39b0d2e5-a8e7-4dd3-8435-006dde0703fa",
+            "parking_lot": "15742dbf-59cc-4fba-a364-9ad82e2e297b",
             "level": 1,
             "slot_number": "LV1-30",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 111,
         "fields": {
-            "uuid": "072305df-7e29-4645-a30d-61d24c9a094f",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "b3c439de-33af-40cd-a2a1-c2d7b7a9f7ec",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-1",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 112,
         "fields": {
-            "uuid": "503ed301-cd06-4cee-a6a6-23d09c5ecf82",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "f67a564a-ae3a-43b4-aad3-425105f53d85",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-2",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 113,
         "fields": {
-            "uuid": "932c0fbd-867b-479b-8944-ee6d8b438f50",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "48f02dbd-cd5f-4c7a-b769-04fbc8d69e1e",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-3",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "mx2hssL5ne7o57kQvjDhf7itLTfb"
         }
     },
     {
         "model": "core.Slot",
         "pk": 114,
         "fields": {
-            "uuid": "968c83f6-b922-45b2-b969-45d1f5eb92b1",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "38b7a91a-ab1c-4e41-8947-6c5389a5cb7e",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-4",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 115,
         "fields": {
-            "uuid": "7140ded6-8970-41fc-8151-4ab98d2ef493",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "b07edde9-0e6e-45fa-a76f-6a756865966c",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 116,
         "fields": {
-            "uuid": "921dbe62-9d16-4997-8a8b-3244e8cc9616",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "44d3898c-a806-4348-aa82-e0958962b412",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-6",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 117,
         "fields": {
-            "uuid": "a2dc26d9-2caa-4f97-b71c-22e76122e643",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "ddd88c1b-d7aa-4802-b8a7-c19c650db80a",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-7",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 118,
         "fields": {
-            "uuid": "f4de4cee-02a6-4da7-b2f9-dc27f21128dc",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "0e5426bc-3aae-4d8d-bcbe-d75d158e4cd9",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-8",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 119,
         "fields": {
-            "uuid": "dc091b6e-3c19-42f4-a1d2-41e842aead83",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "19e25e1a-edfe-4caa-b35f-ecd9ce0a5a81",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-9",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "ZsloXdpnH9NQfp0M3kEeaFIUwxf9"
         }
     },
     {
         "model": "core.Slot",
         "pk": 120,
         "fields": {
-            "uuid": "e4bd84a0-4363-45e8-abaa-fd2933b2c3f6",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "3c80c09c-4c51-44ec-a3ad-074a733389f4",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-10",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 121,
         "fields": {
-            "uuid": "6eba73af-29af-43f8-9129-fcf6fc716de2",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "dcf2c240-2a2e-4fdc-9051-6234394f133e",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-11",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 122,
         "fields": {
-            "uuid": "721449c6-1c55-42cf-bea0-bfe32cb60ce8",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "229f26f0-2747-4612-b142-10e0f0f98d52",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-12",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 123,
         "fields": {
-            "uuid": "b2e0feb1-7bc0-4145-97b7-5d782bfd7cc1",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "9de30ca2-941d-4bc7-8486-d80cb61cf947",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-13",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 124,
         "fields": {
-            "uuid": "4e93e8bb-d0a4-40c7-98d2-23305a322fe8",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "5cc532bd-9fb5-4731-9fc6-f9f7ffda1964",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-14",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 125,
         "fields": {
-            "uuid": "78abc32b-c84a-4493-b895-793b4b22f2cc",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "965e748c-548e-45e7-9553-6a3d0b041cf5",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-15",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "QFmG1q8vrVHFx0aseB0QIhOPflZq"
         }
     },
     {
         "model": "core.Slot",
         "pk": 126,
         "fields": {
-            "uuid": "735bf558-88ed-4915-aae2-d0f3b2113fe4",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "ee895aad-231c-40af-99c9-043792609d1c",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-16",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 127,
         "fields": {
-            "uuid": "3ba7b90b-26f5-4c49-88ef-8671bbe4df0a",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "24f9c12c-05d9-4690-b0ba-9e43ce48ac27",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-17",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 128,
         "fields": {
-            "uuid": "f47af2a9-4010-4066-b54b-e8a09787b9ef",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "a9c75fd1-5a4e-49ec-9bc7-7704818e2055",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-18",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 129,
         "fields": {
-            "uuid": "ac33fb03-b17f-421d-9fc8-61a2f194071d",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "3ae7ba82-e954-433f-bd3e-f0ae9cb98d4c",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-19",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "Xhdq2BZpOOKLZ9Qd8vvSJWadtlx6"
         }
     },
     {
         "model": "core.Slot",
         "pk": 130,
         "fields": {
-            "uuid": "4745bdb6-994a-46df-9093-13098d18d7e8",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "72b740fe-3ac4-4efb-82f6-a39dc378c245",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-20",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 131,
         "fields": {
-            "uuid": "6cfe512d-8f9a-4507-bccc-e67701ca9c17",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "49376e2f-5ff0-4b67-981c-2d3ed2f34cf5",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-21",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "YCuqPJYK1upfumjdKT7P6iftLmvn"
         }
     },
     {
         "model": "core.Slot",
         "pk": 132,
         "fields": {
-            "uuid": "c656baa3-0308-4e61-a4bf-6e37b5036f60",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "309b69ca-20c1-4c76-a1d0-f58c97495e06",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-22",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 133,
         "fields": {
-            "uuid": "634f0d53-25ea-4c38-b032-dc8ddc8aff39",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "6252dce3-a67a-4535-94a4-cb96ff1e0354",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-23",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 134,
         "fields": {
-            "uuid": "6ecba2ed-ba36-4508-9772-8d851c3b1adc",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "9d0054a9-e1f2-4031-a8d5-fbd2f5abd3f8",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-24",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 135,
         "fields": {
-            "uuid": "cdc7309e-35a6-429d-adb7-e07b33f8aac5",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "5cb2acb5-7aac-404f-b823-ed4106c5c1f4",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-25",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 136,
         "fields": {
-            "uuid": "698e1a49-bbd4-4fc8-bcf6-e5038bef28c3",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "8703df5c-3fd1-45fe-90e5-a22353a9e129",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-26",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "wONumHyT0jGJSXGsiuGHEwhZdiQN"
         }
     },
     {
         "model": "core.Slot",
         "pk": 137,
         "fields": {
-            "uuid": "5544d639-915b-4422-a3ac-5682449592c3",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "efac6bff-13b1-4c51-a60f-9446ae90202d",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-27",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 138,
         "fields": {
-            "uuid": "e3e0ed9a-c6be-4acc-9bba-ecfa66fc677a",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "1e17462c-08d2-40e3-82ad-d88f7c0c3c3b",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-28",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 139,
         "fields": {
-            "uuid": "e1a825a8-f179-4c8e-94b1-66ffab632fd4",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "50595bf6-6510-4ef9-a4a2-788bba47380c",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-29",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 140,
         "fields": {
-            "uuid": "faddbbba-777d-431d-be6f-57e5ee326c94",
-            "parking_lot": "deba18ac-d2e6-4451-8c75-6ca962d11f44",
+            "uuid": "783b0556-e7c8-4824-9e31-a1aa9380b1f0",
+            "parking_lot": "39e7ae28-f1f3-4051-b36b-03d4abaa042b",
             "level": 1,
             "slot_number": "LV1-30",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 141,
         "fields": {
-            "uuid": "19fe5a31-e3ee-4045-9c2f-a23b69747d12",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "91680829-10ad-40ae-af8c-9088b0ae19e6",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-1",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "YrJnOlbB6Q0xmrNTiBThB8UFOkgz"
         }
     },
     {
         "model": "core.Slot",
         "pk": 142,
         "fields": {
-            "uuid": "6c49453a-6c89-4dd4-b2fb-784745aab35f",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "38fd0261-8c9d-48a2-8c10-bf53b67a915a",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-2",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 143,
         "fields": {
-            "uuid": "2adae3ab-f57e-401f-9b07-c0539f6c8a55",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "43fe3fac-3d2c-474c-8d5e-b20640bc193c",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-3",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 144,
         "fields": {
-            "uuid": "4276c5b1-8ff8-487f-9547-438252417733",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "3e7db4f4-03c4-4440-ba60-4e7a1a06c27e",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-4",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "6ykBF8xthH1sZmCS0Cs4ZZ1JxZn9"
         }
     },
     {
         "model": "core.Slot",
         "pk": 145,
         "fields": {
-            "uuid": "006d3e7e-5269-4b3a-9e6b-7686e97800a4",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "6beb084f-e7c3-4e4b-8616-6bf3498421bb",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "pzd9mFZlfYqxAyexNGzWNRMkLhzl"
         }
     },
     {
         "model": "core.Slot",
         "pk": 146,
         "fields": {
-            "uuid": "72170c47-306a-450e-958a-cecb0e803e6e",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "2bc2c30e-1dea-4726-a4a0-c52a3097900f",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-6",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 147,
         "fields": {
-            "uuid": "6e1d57a0-780c-4c25-b463-5dfc7a3b4a0b",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "a222c313-8aa8-43f0-9834-fd2b8dc53ec5",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-7",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 148,
         "fields": {
-            "uuid": "967e1de7-649a-4c87-a52b-ec4eef11923b",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "aead0023-ccb0-4c68-9855-9eb44b75f214",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-8",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 149,
         "fields": {
-            "uuid": "307b24e1-efa1-45c6-ad83-02d025113abf",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "7242926e-6559-4d3a-afce-ccab7bf829c2",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-9",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 150,
         "fields": {
-            "uuid": "90ce5bcb-4ec7-4e1e-ad2e-e7610fdcaa2b",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "9dd6061e-d07c-45a1-956a-c1e602bca944",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-10",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 151,
         "fields": {
-            "uuid": "92732ab3-a8f9-43c3-b110-bd7ea8c3338a",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "332a2c47-860a-4da8-8c12-c31dd9a98a61",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-11",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 152,
         "fields": {
-            "uuid": "6edf8f04-03b2-42dd-a028-3c85ece54c81",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "3e7395e2-e8cc-415c-a85d-076840d5fff3",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-12",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 153,
         "fields": {
-            "uuid": "4022e1a9-6059-4ecf-bfd8-1bc8bf30aed9",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "08f2f9f8-ef38-4019-aa3b-6c5a8ee1b973",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-13",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 154,
         "fields": {
-            "uuid": "8c0f9ea1-d0fc-4feb-a520-0242cc20b4d7",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "9b936af1-b9f8-4aed-95d5-9aadf29cce7f",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-14",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 155,
         "fields": {
-            "uuid": "578a38d2-9d43-4e56-bf6c-56da837b4b77",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "4aca88f6-a8b4-49e9-80e0-d3ed95e9ba8d",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-15",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 156,
         "fields": {
-            "uuid": "9225fcb3-bed9-4c65-8d85-b30232899968",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "a2ac5327-6033-48c3-a1b8-56b9c64cc049",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-16",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 157,
         "fields": {
-            "uuid": "405b1c8c-cf10-424d-af4d-8b927e7ac85e",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "96584906-2ff5-4969-8587-9b5b4030c2ea",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-17",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 158,
         "fields": {
-            "uuid": "d4356ece-625d-49f3-85a1-42fe51e3b140",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "b5b561f3-cad5-412a-bff2-224208d911f3",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-18",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 159,
         "fields": {
-            "uuid": "fa797dda-3b35-4185-8858-c7fad00e3e7e",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "c8b4e179-5556-4ea5-8b9f-30e4510effeb",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-19",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 160,
         "fields": {
-            "uuid": "693f2941-bb99-4423-ac07-19c5095c71d9",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "a48a37e5-c49f-40ca-bc2b-f27dfa4071a0",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-20",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "yebs2D6ArWHwtCfYc2WdQBOy5XQv"
         }
     },
     {
         "model": "core.Slot",
         "pk": 161,
         "fields": {
-            "uuid": "6e3e97e1-0150-4b3f-9b33-541bb37bce8a",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "045cc208-730b-42ea-9e18-41c01c8a5df7",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-21",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 162,
         "fields": {
-            "uuid": "d14ddecf-abd8-467d-bcda-289a33695208",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "eb392296-9aa4-48df-a289-2fb227fd1b92",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-22",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "q9YDPAYeqGfGbRvvKmvQr051X4vz"
         }
     },
     {
         "model": "core.Slot",
         "pk": 163,
         "fields": {
-            "uuid": "fa696c94-2adf-4596-b602-06b065c4d3ec",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "9dd3b84e-4e61-4ab0-8815-3cb3f33c7030",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-23",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 164,
         "fields": {
-            "uuid": "7e24c457-4fb2-4fd9-8d06-d2b5d1bf282e",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "803003b1-2d2b-4e26-a331-92e5222bfbec",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-24",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 165,
         "fields": {
-            "uuid": "391c1434-179f-475c-998e-e557e26ce8a0",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "6e5964cf-66d7-4d8f-896e-0b70255d2511",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-25",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 166,
         "fields": {
-            "uuid": "5a9f9f99-04d1-4ed8-9650-3d34ddf14714",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "98d0200e-8d63-4f07-b93b-f54cb81900e2",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-26",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "GTd5nX5CceTzutG2kIOACVFbW5h3"
         }
     },
     {
         "model": "core.Slot",
         "pk": 167,
         "fields": {
-            "uuid": "04fccdbc-a277-446f-ad50-a54300c5b5b2",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "14790a6d-4552-4af5-b584-68e2ac9d865f",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-27",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 168,
         "fields": {
-            "uuid": "ab5e2919-2f94-4520-85c8-729a0b250507",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "b66e415d-32b6-4696-8213-00e15b777db2",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-28",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 169,
         "fields": {
-            "uuid": "149cf716-f94e-4ab0-9ed3-1c83f8c485e6",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "9a2adff9-5627-4d28-9adc-9268606eb5eb",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-29",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "5XJO2CJDwwtpisNfV6Eg1vJRhYpV"
         }
     },
     {
         "model": "core.Slot",
         "pk": 170,
         "fields": {
-            "uuid": "6b7f9bc4-5ab8-40de-97fa-36caaaa55b18",
-            "parking_lot": "820d52e5-ea99-4e10-86a6-00d83e3b76b7",
+            "uuid": "c6b718f6-a81f-4e09-afc3-8a86adc39360",
+            "parking_lot": "6d05a8f6-e570-4c1a-83fd-1ef90368267a",
             "level": 1,
             "slot_number": "LV1-30",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "Q9ACrIumAcCDAswJPGskdEqOBCrD"
         }
     },
     {
         "model": "core.Slot",
         "pk": 171,
         "fields": {
-            "uuid": "4f885e38-5333-42ef-aa6e-1bb2d23d485c",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "08d9ee76-10ac-4ae5-8d79-5306fe144246",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-1",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 172,
         "fields": {
-            "uuid": "65a74498-7cc1-49d4-b621-477096d05f1a",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "fa3468f2-1755-4efd-8f44-5f8c759b5a34",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-2",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 173,
         "fields": {
-            "uuid": "39c4bd08-c347-4784-97dd-c7aa164d3d3d",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "8e76b124-0b5c-43a2-a357-3113a64fed06",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-3",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "01NVZQwPH3RouBd7UbFd7ahnBUO1"
         }
     },
     {
         "model": "core.Slot",
         "pk": 174,
         "fields": {
-            "uuid": "ccf3610c-7fea-463c-be05-6b76193d98b2",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "d7157a2c-0bd6-41fb-b71b-f21d17f8bb4c",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-4",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 175,
         "fields": {
-            "uuid": "c6824eb4-604f-4d1e-8c44-1432b9c470e0",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "1e241dee-2388-47b3-9308-5d4b9f21a5d9",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "52hmPjKEDt4Yl17KVH7KolzNsLvx"
         }
     },
     {
         "model": "core.Slot",
         "pk": 176,
         "fields": {
-            "uuid": "59589a1e-ea1c-4695-8dff-1d115ab94c70",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "6a00e387-e836-4846-8888-be6d471725fd",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-6",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 177,
         "fields": {
-            "uuid": "34b77dc4-d715-4ee2-a618-3b996cb533a0",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "d4fd5517-8f33-45cc-92a1-16a558b313a4",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-7",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 178,
         "fields": {
-            "uuid": "f99b406f-ccc1-4b37-94ae-e933e9e6c8e8",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "55c47471-cc81-4c8e-a3ae-0ccc3828409e",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-8",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 179,
         "fields": {
-            "uuid": "be67f5ba-47b0-4fbb-a34e-b4f3382a3bb1",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "cae6979b-4cbd-4aa0-a8ac-fc59c42e8a8b",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-9",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 180,
         "fields": {
-            "uuid": "29e45215-e50e-4c88-a3b4-15e82507f457",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "79fd7040-067e-4600-94a0-63e9c5317b0d",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-10",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 181,
         "fields": {
-            "uuid": "a81497df-b16e-4ccd-a940-64c689d37179",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "ae225355-1c2e-4d47-9609-607acf3d81c0",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-11",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 182,
         "fields": {
-            "uuid": "8637f7bb-41fd-4b7a-82f8-84a600e63448",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "cce16a3e-ff79-4a31-b77c-cc2c34192e03",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-12",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 183,
         "fields": {
-            "uuid": "ac34902a-9d58-4999-9fab-cca399562d62",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "a2921b2d-fc15-4fd6-b3a2-5e608322f35e",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-13",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 184,
         "fields": {
-            "uuid": "05e68a64-bfc5-46b4-b514-7685e3390894",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "db5d5082-7f7e-47c3-b362-6b0d16f36f93",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-14",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 185,
         "fields": {
-            "uuid": "9f23ba1a-0fee-4bc6-aee5-e1473cd37392",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "675cf9d8-fec0-4f03-89fb-80f0d3c443a6",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-15",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "tnY5tOzpoqoxitmnr5gK7Udm1L13"
         }
     },
     {
         "model": "core.Slot",
         "pk": 186,
         "fields": {
-            "uuid": "f35d9e9a-88a7-413d-8b88-b68c7e66c37d",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "dd6f8bd8-e791-47dd-8a9d-a64d7edeb5eb",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-16",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 187,
         "fields": {
-            "uuid": "7b0e4be0-2a88-4e20-80ed-1f4e027a806a",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "ee241fc8-886a-46d7-9ad6-64b7a7555acb",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-17",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 188,
         "fields": {
-            "uuid": "18a4c069-f653-4dfe-b1d5-6e51c109110e",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "65d5d501-24ac-43e1-b55b-d6a99f5f1fc8",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-18",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "t2tvJCSgn4428HYSnQDAa4nlEuwr"
         }
     },
     {
         "model": "core.Slot",
         "pk": 189,
         "fields": {
-            "uuid": "2c189fc2-4204-43fd-9acf-6b95a50a7208",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "923ea775-04db-47f9-b3d5-d0bc37fa70b3",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-19",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 190,
         "fields": {
-            "uuid": "272acf4b-bbe9-477d-9c35-d1ee7ab47c93",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "76349ef3-2dcf-4def-92cf-e10bb52eef3c",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-20",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 191,
         "fields": {
-            "uuid": "c9a34578-e667-4065-9919-e465fa45d74f",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "bbbd7c64-1ea0-401b-b4ca-6b1a369f6e67",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-21",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "bl33KLQwGZFFDurRxcBOsg8W8jU1"
         }
     },
     {
         "model": "core.Slot",
         "pk": 192,
         "fields": {
-            "uuid": "e847904f-a22e-42ef-beea-5e7d8a70e30a",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "e18dc867-c0e8-4d49-8fe9-c72ac81ee6c3",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-22",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "l2Qc8fZFWABh0NjUtsFY5C1qYpWN"
         }
     },
     {
         "model": "core.Slot",
         "pk": 193,
         "fields": {
-            "uuid": "d31d7848-78a3-4ba8-91d0-e22ceb8206f5",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "52870876-c276-4c60-aa9c-33a85982a3c8",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-23",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 194,
         "fields": {
-            "uuid": "f0080b1e-ad3f-446a-8c76-0e6a23c2235b",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "5afab5d8-b266-4194-8f4e-5bc6b498bc07",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-24",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 195,
         "fields": {
-            "uuid": "bb32d7f3-bfbf-48f0-b3bf-35a655fb4270",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "42da4110-5505-42fa-ab3b-a29a635e9da2",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-25",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 196,
         "fields": {
-            "uuid": "e26074f1-98f8-457e-a0ec-0e089b18ed00",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "5deea375-f2e4-420f-bd25-9675f1869831",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-26",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 197,
         "fields": {
-            "uuid": "b038ba8a-3166-43a8-b00e-3d7d46aec786",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "579b932c-c825-42c9-b233-cb74cc11bd29",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-27",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 198,
         "fields": {
-            "uuid": "69373336-c36f-4ac7-bdc3-30e41c7aa21f",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "e6344d34-f39c-4415-9708-2f746b317d48",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-28",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "M7wxCTSuteECh2Ry9FLfKctBeTpi"
         }
     },
     {
         "model": "core.Slot",
         "pk": 199,
         "fields": {
-            "uuid": "3ca4b3ec-9dd7-4585-b7cf-c3464a4f078a",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "8ef93923-4028-444a-adf2-b6e8fb44a434",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-29",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 200,
         "fields": {
-            "uuid": "0ef78a1b-e7a8-47f4-a081-41671946d287",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "0a63c9d1-aba2-40ca-842e-686dced2d146",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 1,
             "slot_number": "LV1-30",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 201,
         "fields": {
-            "uuid": "c1b87c4a-e6d0-439f-b7ca-02f26f1efdba",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "c5706a74-1db6-44a6-8340-0b2bca7bf1bd",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-1",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 202,
         "fields": {
-            "uuid": "1f301bb8-3ceb-4599-9bea-7bcc83961438",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "91714c1b-78f9-4311-8455-8a28445c8523",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-2",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 203,
         "fields": {
-            "uuid": "5f5c8b76-71db-448b-9040-d98fa01028a6",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "baba9552-7685-4714-b2d7-e218e5c5462d",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-3",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "snlWCnHi3Gq33f9CFkLWriWEN4qT"
         }
     },
     {
         "model": "core.Slot",
         "pk": 204,
         "fields": {
-            "uuid": "7c78959c-6a92-4677-8800-0e9eba752745",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "f91fb69c-fa48-441c-8142-c19c181fa07b",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-4",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 205,
         "fields": {
-            "uuid": "3ff4ef2f-5836-4c3e-9239-5d9776164297",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "cff4f037-19a1-4eba-bed3-6c2176c34c05",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 206,
         "fields": {
-            "uuid": "2b8fbc62-870d-4583-b0f7-0c32b7cf55ad",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "1f88afc5-3199-4de6-bc95-b054c7edf050",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-6",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 207,
         "fields": {
-            "uuid": "482f4a37-491f-42f3-8cf3-b502a4974e0a",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "36d065ef-8e9f-4fab-a885-6547c26731e7",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-7",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 208,
         "fields": {
-            "uuid": "f6bbed2e-60f2-4c16-90e6-da4b11d0e3f7",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "66757fc8-97ce-481b-9144-4db2d8d62b28",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-8",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 209,
         "fields": {
-            "uuid": "c1e54c0d-a14e-48e3-a816-2a651da89203",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "af2a9212-2954-463f-815e-a5ab02ab8aa7",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-9",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 210,
         "fields": {
-            "uuid": "e10eff15-1583-4e43-b257-5f824cf1f535",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "6f6242ec-19f8-47a1-9629-3ec51d6dbda1",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-10",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 211,
         "fields": {
-            "uuid": "c06370d3-04b6-428d-94d4-f456db8f121d",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "acc0584a-0d7c-498c-b898-b0f5e87b96be",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-11",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 212,
         "fields": {
-            "uuid": "0b94fe65-0539-4d85-a2fa-4dd0a214b2b9",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "4c969613-6407-42f5-b6a4-127b80500816",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-12",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 213,
         "fields": {
-            "uuid": "c0d1172d-d49c-4acd-96ad-3f83fe06fbb8",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "0ff59679-5b07-4dda-8bab-a94249293792",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-13",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "0bz5hZJiVodMn8tdHXIFMK6xbWeK"
         }
     },
     {
         "model": "core.Slot",
         "pk": 214,
         "fields": {
-            "uuid": "837572e9-9c7b-4b3e-adda-ac2d17919bc3",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "242395cf-9e90-425d-81cd-15f0e2d5d76e",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-14",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "e9eADkS9ZuL2jDHT9J45HVFAncmx"
         }
     },
     {
         "model": "core.Slot",
         "pk": 215,
         "fields": {
-            "uuid": "352159c4-c98e-45e4-8daf-98c54c1c0916",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "6b49cf4d-9c42-4876-afb9-4353009ec6e5",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-15",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 216,
         "fields": {
-            "uuid": "c585c432-5ce7-4aa0-bf82-971bbe978c59",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "e8f917e0-90e1-4474-88b2-855bce6de9b5",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-16",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 217,
         "fields": {
-            "uuid": "b393b69f-4570-401d-8c7c-5228e0a06069",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "934c45b2-8cfc-47b6-8134-b1743655d65c",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-17",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 218,
         "fields": {
-            "uuid": "ad8d7fb7-e567-4208-bfe7-6de29a794f43",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "272b8f7d-d203-4edc-ae3a-138ff95768f2",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-18",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 219,
         "fields": {
-            "uuid": "04d5b10f-b349-4797-84e4-af5ae5b5a09b",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "d515f09d-d658-4bde-97dc-505320ee2720",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-19",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 220,
         "fields": {
-            "uuid": "b140db23-8f09-4008-9c6d-507aaf19f5ce",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "2d36b68b-5668-4a04-85e6-e7f240ecc78f",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-20",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 221,
         "fields": {
-            "uuid": "4b4c53e9-2026-4491-9a4c-9de7411cb293",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "fa683034-9a0b-4863-8766-203b22396c93",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-21",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 222,
         "fields": {
-            "uuid": "2b76de2b-a07f-4e1b-ab21-66904526337f",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "e9e30ec9-ad5e-4310-a201-38baefd2de7b",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-22",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 223,
         "fields": {
-            "uuid": "c2453a03-ab36-47a2-8263-f03a4fdc30d6",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "e9f920fb-5816-439c-8ee4-6e3073df005e",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-23",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 224,
         "fields": {
-            "uuid": "627aab94-fb72-4959-9645-fee75b07b7f0",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "7837d3ac-6db6-4b84-ad12-924b482d1594",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-24",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "HYctfP5pLkrUL9qBQUMstvppvM8R"
         }
     },
     {
         "model": "core.Slot",
         "pk": 225,
         "fields": {
-            "uuid": "19caadc4-fdab-4d76-ba44-c7bad8d76ce2",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "c337f14c-8cea-4de4-9123-0ddc87a6f574",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-25",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 226,
         "fields": {
-            "uuid": "922391e7-88c2-4ad6-84ef-0c65572cd690",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "ef5e067a-fc4b-4e44-bf53-2377009dafcb",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-26",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 227,
         "fields": {
-            "uuid": "62dbb5c2-a5ce-4679-bcb1-38e70689b2d5",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "efd7266f-516e-46bf-b8ec-0cf638b2683f",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-27",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 228,
         "fields": {
-            "uuid": "05f1e6db-10da-41f5-a729-57c8863b923e",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "ac1bb779-3bee-44ab-96c1-b4a02478ed5c",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-28",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "Jlg0fKqyhmgb6XOD5QiO1XoUL2Yg"
         }
     },
     {
         "model": "core.Slot",
         "pk": 229,
         "fields": {
-            "uuid": "317a85b4-0493-444c-9483-a96f73977273",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "6309edce-23b0-433a-a75d-c1853c85cfb9",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-29",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 230,
         "fields": {
-            "uuid": "bcc65c16-681a-455c-9751-acd6d6fc9917",
-            "parking_lot": "42d9b5cd-ada9-4b6a-a923-f38aee601a3f",
+            "uuid": "d84f15c0-40d7-428f-8310-7f1d41682417",
+            "parking_lot": "c2c5dcf1-0d9e-4f54-877a-6a1769d77ec4",
             "level": 2,
             "slot_number": "LV2-30",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 231,
         "fields": {
-            "uuid": "2d687d41-fdcf-4241-8834-ae0aff7740eb",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "81ba8a03-811b-42d6-b306-2527b92457ae",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-1",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 232,
         "fields": {
-            "uuid": "bbc29e2e-14dc-48f7-bd1c-0d28626055b6",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "c5cbc3e2-3edc-4493-abfb-875f1d229547",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-2",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 233,
         "fields": {
-            "uuid": "1759ed06-1d24-48ef-85c8-f57bc4a8ccc3",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "a6cff242-5e9f-4a23-8d7f-189570451532",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-3",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "j0tjF3naPHxamPwsOLZounFt02u6"
         }
     },
     {
         "model": "core.Slot",
         "pk": 234,
         "fields": {
-            "uuid": "40d95fdc-222f-4f20-9df7-fd0052f6d242",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "ed2f73c9-a3e2-4473-96eb-83251826ab75",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-4",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 235,
         "fields": {
-            "uuid": "681e74a7-119b-4df0-a5b2-e252dc196d81",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "8cd78cd6-0917-4e86-8914-b026a8537795",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-5",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 236,
         "fields": {
-            "uuid": "409c4f22-f18b-48e3-b619-3aef896a345e",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "943171f2-4e1f-4e78-9579-1b7f62b35957",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-6",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 237,
         "fields": {
-            "uuid": "641f0256-1c71-4cca-904d-db3c0a1c6b24",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "d8ae07b5-b83b-4995-9d8b-8f6ed888887a",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-7",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 238,
         "fields": {
-            "uuid": "0613ba36-fe1b-469f-9232-7d9b8ffe1984",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "500c99d1-4169-4ca6-b930-2f4791be4e41",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-8",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 239,
         "fields": {
-            "uuid": "6070b174-b6f2-4f92-bb5c-230507dd7611",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "3ba13597-2c3f-4bd4-acb5-ef8ce5943a67",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-9",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 240,
         "fields": {
-            "uuid": "da4348dd-c7d4-4a94-a8f3-500c0135b8e6",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "cebb634c-c0ea-4241-9680-9ca7dd85d118",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-10",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 241,
         "fields": {
-            "uuid": "be0839d9-2925-4608-8360-a69f038c2496",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "762f6e47-cde4-42df-8dcf-65f8b4df0d94",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-11",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "0WFewg9A98q83JTFDpcQFexNDcr2"
         }
     },
     {
         "model": "core.Slot",
         "pk": 242,
         "fields": {
-            "uuid": "dfc9538c-f90c-4dd9-87f0-f9644928d3d3",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "20aaf7c5-4f7c-419c-b6f8-27e8f1404025",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-12",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 243,
         "fields": {
-            "uuid": "78c7ca5e-19b9-4552-9e6d-3f2fdb9ec2df",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "730eb962-0d6e-49ea-9675-d954cb21a6c1",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-13",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 244,
         "fields": {
-            "uuid": "d22d4b6e-e64a-4cde-87f8-0139db04d8a1",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "8a8a4319-e381-48b9-adba-be84563c4028",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-14",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 245,
         "fields": {
-            "uuid": "d04b2dd4-b164-4306-8ef8-6035bf899cc4",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "1a6e18b4-43cf-4c30-b9a0-d66b2632a946",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-15",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "uTG45Ih4RLI6JyrYChV8KuJGQ9x8"
         }
     },
     {
         "model": "core.Slot",
         "pk": 246,
         "fields": {
-            "uuid": "569d1b46-54dc-4b28-8f89-872ca0f354ae",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "f7a6adb7-7d72-457c-8ec5-65928b1af785",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-16",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 247,
         "fields": {
-            "uuid": "fd7ea633-7e4e-4f9c-8310-593132bc3ec2",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "7ed0c73a-a8d8-4817-823f-746f410efa38",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-17",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "D9p4Gtvq9Hh1GxaL9g5QnKYDKGRX"
         }
     },
     {
         "model": "core.Slot",
         "pk": 248,
         "fields": {
-            "uuid": "6b673ba5-3b68-4c22-99d2-623cc82606d3",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "bf8c1f9b-a297-4ced-bb87-8d6f2e52cb3a",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-18",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 249,
         "fields": {
-            "uuid": "3b553918-fd7b-4e36-af2b-583a528098fd",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "db6f0421-e1f1-46ea-aa22-343e8b848e8b",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-19",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "sU0MRxcKHIv6Cbk9IahTql8gyGZO"
         }
     },
     {
         "model": "core.Slot",
         "pk": 250,
         "fields": {
-            "uuid": "3852891f-17e9-45bb-84db-4ff8f25f3d70",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "ae09737d-9d26-4ec7-bb1f-f1e1c700a6e5",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-20",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 251,
         "fields": {
-            "uuid": "8d820419-71a4-4dcc-832e-f0b221f584bc",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "5b6e11a4-52ed-46f4-baa7-0a509916f0a7",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-21",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 252,
         "fields": {
-            "uuid": "2bb69818-ba31-49e6-9b37-99d25f32204f",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "47e07322-3337-4163-ad7f-d7201da6dfd3",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-22",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 253,
         "fields": {
-            "uuid": "dd61914a-7ba7-469a-ba76-7f193faed8db",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "9d771674-3ea6-4a46-962c-5099dd5b3739",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-23",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 254,
         "fields": {
-            "uuid": "7fc262d6-c59e-4ec1-92bb-a731d011c2ea",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "6d14a098-2433-483a-b1d9-32f399880b5d",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-24",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 255,
         "fields": {
-            "uuid": "52350bad-a905-4abc-b943-8a7ae6c93d9f",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "8e595521-d5fc-4e77-81ed-0b6f8500ef6a",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-25",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 256,
         "fields": {
-            "uuid": "e2d709f4-3e51-4fac-aa1f-b21cf7b525c9",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "3a43037e-ac92-45f0-a08b-5d78f0da0796",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-26",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 257,
         "fields": {
-            "uuid": "66ddcc11-684b-4976-ae80-73fb39be02e7",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "f5ae2782-dd52-4e87-b8e0-ce26a2df8ee5",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-27",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 258,
         "fields": {
-            "uuid": "1fd21e1c-65d8-4e85-b7e1-4cc49eaea608",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "de7787f7-9041-4053-9868-0e4e58417d5c",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-28",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "6mRShaEF30ksXDkvRhtdYlDk9d2Z"
         }
     },
     {
         "model": "core.Slot",
         "pk": 259,
         "fields": {
-            "uuid": "90aff24d-b0ab-4d4d-9c64-56f22d6b9d81",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "c874636a-c920-423b-b8a9-9205519d0751",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-29",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 260,
         "fields": {
-            "uuid": "f87c5f25-a17b-467f-a5c2-1ed807e51964",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "b8631ba7-2d01-4642-a43b-54ca8df3c1be",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 1,
             "slot_number": "LV1-30",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 261,
         "fields": {
-            "uuid": "3831759b-e410-4983-bad7-0ee3f9ef7a79",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "ec79e1f1-342b-4bb4-b429-dec46fd804e4",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-1",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 262,
         "fields": {
-            "uuid": "217b65a3-7a8c-4c9e-acd2-0a444d3d07df",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "6033809b-bdea-4cc7-be26-92df49eed7b1",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-2",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 263,
         "fields": {
-            "uuid": "3994c2cf-8d6a-4403-938f-5c2c073b29ac",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "db0d1dc4-dd76-46f6-9f44-22f78bfa43fb",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-3",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 264,
         "fields": {
-            "uuid": "d0dc962a-07f3-48ef-8410-11af5b69e23d",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "b335edc4-e952-4bad-a574-71a8a77cd408",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-4",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 265,
         "fields": {
-            "uuid": "bd8826b7-e8b8-4d3c-9e12-69b039103572",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "53352059-b933-458b-8d94-e3972e1ae615",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 266,
         "fields": {
-            "uuid": "608cc909-f56f-4baf-bdbd-00669fedcd1c",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "fd4468a5-c687-45c7-b36d-9423580335b2",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-6",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 267,
         "fields": {
-            "uuid": "0d3adf53-7134-4554-b5fd-773f4f53262a",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "17826a33-7c85-4610-8fb7-9c249165d12b",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-7",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 268,
         "fields": {
-            "uuid": "8c0f6b51-0b8e-4f24-812b-2b9ccc22dd4f",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "a036d72a-4bb7-49c3-ad2d-ee68342aca59",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-8",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "6mCF7xaT6CwlPazsZGWFPDxUxyZ6"
         }
     },
     {
         "model": "core.Slot",
         "pk": 269,
         "fields": {
-            "uuid": "3490392a-0703-4659-a549-e97f1c9e3e3e",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "ae0924ad-c2b8-4790-ac2f-5a38d5e777b2",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-9",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "DsRMN2ex9Cqy6lIm3LYyiSQSV8CN"
         }
     },
     {
         "model": "core.Slot",
         "pk": 270,
         "fields": {
-            "uuid": "d791c2fc-dcf9-4d30-b574-948bae199629",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "55300d16-005f-4649-8f20-626fde743aff",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-10",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 271,
         "fields": {
-            "uuid": "7d5dc682-672b-4a99-9380-315c8611f1ef",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "09fe1dac-40c2-4114-ac7d-5d05c890a0b2",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-11",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 272,
         "fields": {
-            "uuid": "d0aca724-dba5-4036-8f5f-10157564a7d8",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "b84401d4-4d8f-45bc-b2cc-505400315a4b",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-12",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 273,
         "fields": {
-            "uuid": "4c3e48ac-5689-4bfb-9983-3ac169def661",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "c334dddc-1699-4cfd-88b9-b165dc2f712a",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-13",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 274,
         "fields": {
-            "uuid": "bc5ddfbc-f5e2-4a95-93ff-e8d4f525c985",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "d67123fa-937d-43c9-b52a-0cdeaf301005",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-14",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 275,
         "fields": {
-            "uuid": "de03671f-bda5-4c3f-8e47-b84ab9dbf0d0",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "206f42ee-9c39-47d6-a363-22875fcef899",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-15",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 276,
         "fields": {
-            "uuid": "1431d747-0399-4075-931e-cd1972072584",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "13dc3582-bad2-4a46-b6e6-e25ea1d1b8e6",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-16",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 277,
         "fields": {
-            "uuid": "8f20b614-954c-40aa-bdc4-1a5f6e1aa87a",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "9564ae38-7ad5-4e93-ab21-372bdf665338",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-17",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 278,
         "fields": {
-            "uuid": "34f877e5-97d2-4bcd-ae20-512c57faec56",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "1ac2750d-7c0d-441b-8873-99f966be017a",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-18",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 279,
         "fields": {
-            "uuid": "d152a715-be07-4733-8798-f4184b83444c",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "46e678e8-ea47-4de6-bd4e-681cdf5c1b0d",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-19",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 280,
         "fields": {
-            "uuid": "589c70a3-b07d-4917-a9c7-4f2e8205283c",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "8b6ad92d-bcf6-4e92-9643-04c2f52c3cc8",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-20",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 281,
         "fields": {
-            "uuid": "1d437604-74e6-438b-8b8f-87b46f2d5432",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "6948240e-7167-489f-95a2-e391659e2226",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-21",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 282,
         "fields": {
-            "uuid": "cdb4fe4c-1f34-49d6-8f08-8641d01be1c1",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "5d99d82d-4a4e-4b14-b087-5bf2ae8ec689",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-22",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 283,
         "fields": {
-            "uuid": "4b72ff4d-cd71-4c21-93e0-af39eb922412",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "407d5a1f-06d5-4722-bb53-3ddb5e148c43",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-23",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 284,
         "fields": {
-            "uuid": "322c52bc-8a21-4d78-8a70-f17fad482377",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "1fd40f73-2890-40e1-a021-02588a816a3f",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-24",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 285,
         "fields": {
-            "uuid": "18c6fc4a-43e9-4c53-a8da-4e40417b0e22",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "42b2b35b-4ca0-451d-8ae2-5689a204f72a",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-25",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 286,
         "fields": {
-            "uuid": "b376e8b5-a371-406d-ba9a-4e2a07e62fdf",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "e468218e-8da6-4739-8002-1c5dceb59974",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-26",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "M7CS3gmL3DxFhx4GQm7vMARtkpoX"
         }
     },
     {
         "model": "core.Slot",
         "pk": 287,
         "fields": {
-            "uuid": "df34be49-592c-4d1e-8e41-03dde9d06e67",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "27c815c1-bb73-4f44-a99c-5efc666c89fe",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-27",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 288,
         "fields": {
-            "uuid": "247a2cdf-28d8-4658-87a5-3c7c09db83c2",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "621a0534-e833-4d57-9ef1-d94691ec6e67",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-28",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 289,
         "fields": {
-            "uuid": "e4159ffa-c787-45b9-b020-d126474ef7cc",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "13d8cccf-dd8c-4012-bfd9-155a2148ddef",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-29",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "2vfVAqZFYL87oisctKMRDP5F8ZVr"
         }
     },
     {
         "model": "core.Slot",
         "pk": 290,
         "fields": {
-            "uuid": "bd1eec63-158d-438a-892a-d95f9bb5a66f",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "fc83923b-63a3-4fce-a4a4-25d36203f6a9",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 2,
             "slot_number": "LV2-30",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 291,
         "fields": {
-            "uuid": "6ffd3198-0ff5-4050-9324-c6b3ff97248c",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "3f654181-387c-4d2d-8714-78b00b31fd5d",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-1",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 292,
         "fields": {
-            "uuid": "56cc3e95-5808-43fa-9e8f-1fc9cc4549e7",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "36eed316-5761-45d0-ae67-adb77d845919",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-2",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 293,
         "fields": {
-            "uuid": "ed6eedd2-986d-40c8-86b3-e42057160183",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "9d94f13b-d4b7-4653-b283-82803c1dee10",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-3",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 294,
         "fields": {
-            "uuid": "882dcb89-15f5-4ce1-a429-feda932157fd",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "b7405d91-cd80-4b2b-84b5-45990cca7e54",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-4",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 295,
         "fields": {
-            "uuid": "7c7cc6d6-2b82-41c5-b3ab-7093c142e54f",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "697216c9-744e-4ea4-a219-d402f65c54ce",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-5",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 296,
         "fields": {
-            "uuid": "9ceaae5a-bb7b-46c6-ba53-40782b6bd146",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "6cd3f0c2-2876-4224-8f8c-bc65aee9a979",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-6",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 297,
         "fields": {
-            "uuid": "bfd454f2-16bc-4174-8b3d-7ef78e6d33e8",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "6de51ee7-ddc0-4e8a-86b3-59af0a84a3cb",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-7",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 298,
         "fields": {
-            "uuid": "8e91e1b3-a18f-446c-9eea-5ef800e88369",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "142878d3-e035-4307-b4b3-41b83a6c674b",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-8",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 299,
         "fields": {
-            "uuid": "b9ac5baf-6d26-4044-99e6-27593ab0e6ab",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "74d9e3c4-b8f3-420a-ac77-c322a8f4774e",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-9",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "ZuJwHjjiZa7rutqke7sBnKn8lHlk"
         }
     },
     {
         "model": "core.Slot",
         "pk": 300,
         "fields": {
-            "uuid": "c0c0cc4b-e6d7-4e8c-a498-35841f3f7ce3",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "c252e62c-bc5e-4066-919a-fd501dae957d",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-10",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 301,
         "fields": {
-            "uuid": "9ff27d25-cad8-44ae-9da3-ed503648553e",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "d5bb20fa-ca53-4fa2-867f-6fc0dca31222",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-11",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 302,
         "fields": {
-            "uuid": "eb250e66-a897-4919-96a4-e6adaa0917be",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "6022d51c-d904-4a49-a56b-2a2c5589fe69",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-12",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 303,
         "fields": {
-            "uuid": "81ccf8fe-255f-49b9-8b5c-a98f617ac344",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "b0ca7dfd-bed1-407b-855c-7beab306d3ba",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-13",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 304,
         "fields": {
-            "uuid": "dd5947c4-9c33-448c-9d58-4ed890c5669b",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "03b977b4-2122-4c0a-ab09-c6c41a82f3d3",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-14",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 305,
         "fields": {
-            "uuid": "ec0cde48-bab0-49b1-af7d-d38b3ab3f842",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "bdc23ebf-68a7-4b0d-b2ac-a770f5af1da6",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-15",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "HCLUSvf3x3WIWzP7vBuLMDw68sLL"
         }
     },
     {
         "model": "core.Slot",
         "pk": 306,
         "fields": {
-            "uuid": "05803e86-1c24-46b7-a7d5-75a05e6fb765",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "0f41a65a-5224-4ef8-96c9-3191c13bec80",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-16",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 307,
         "fields": {
-            "uuid": "0c3f08c0-3972-4ee5-84fa-cd4e35dd4386",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "5b8b0512-6af7-49c2-bb0a-8b54bdb95fba",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-17",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 308,
         "fields": {
-            "uuid": "59abc7e0-7f82-4284-949d-9f0547bfc40d",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "efb5c644-78f8-47f7-b290-6e447562a2d7",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-18",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 309,
         "fields": {
-            "uuid": "99ea735a-390a-4980-9991-06176a8d83f0",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "0926a523-3869-4c55-9cfb-a8f3fc3a4202",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-19",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "u4p9ivZZcVukGEOE6mxlnG1w3kgJ"
         }
     },
     {
         "model": "core.Slot",
         "pk": 310,
         "fields": {
-            "uuid": "144bd7c8-f9e3-4a97-afe1-fc06f9a51fb9",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "8032e5f2-ebb5-49f4-8b64-d9f2bd5018e8",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-20",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 311,
         "fields": {
-            "uuid": "211c767c-1fa4-4969-bbea-934220fd818f",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "a75f2ecf-3165-4afa-9917-de877cc0cd8c",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-21",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "MFCYz0RUGtSfubP8o01ndfTSXPWl"
         }
     },
     {
         "model": "core.Slot",
         "pk": 312,
         "fields": {
-            "uuid": "60fa2446-d8e8-4856-a6ce-e769bc816bf3",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "c69b872e-d7ad-4bbb-a06a-8c8ce055f2a6",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-22",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 313,
         "fields": {
-            "uuid": "3ca34c4a-b965-499d-9977-dec900228388",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "486bcff7-06c2-4e6a-9de8-2483018dd4a7",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-23",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 314,
         "fields": {
-            "uuid": "7966624a-059e-4918-a09c-ac18a9238ca2",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "b5f0683c-7dc2-4941-961f-438ba66031d2",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-24",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 315,
         "fields": {
-            "uuid": "038bf903-ddc5-41d3-a1b3-f87710b49404",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "4bb961a0-38d2-417f-bb12-b53124b6ea70",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-25",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 316,
         "fields": {
-            "uuid": "e0f119a2-ee59-4203-ad04-afc64271ce89",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "bf2c1879-1e4f-48a7-90eb-fd25d31338c2",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-26",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 317,
         "fields": {
-            "uuid": "107897c0-c3ed-47be-a0b1-c3a6b202fcca",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "35f72960-44f2-47a5-8f6e-b3fc93736896",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-27",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": true,
+            "reserve_id": "CNnFYQ7KC31Fd3qsnzncOSSUhG3z"
         }
     },
     {
         "model": "core.Slot",
         "pk": 318,
         "fields": {
-            "uuid": "8a9274f8-1a2e-495d-aa42-99a97d61e577",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "0a39dfe5-f1cd-4000-ac16-ac41780d2c78",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-28",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 319,
         "fields": {
-            "uuid": "bb1516d2-0fe3-4864-bf7d-b079a283fa8c",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "dfc21093-8195-4bfd-9e7f-508328e5fbea",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-29",
             "latitude": null,
             "longitude": null,
-            "occupied": true
+            "occupied": true,
+            "reserved": false,
+            "reserve_id": null
         }
     },
     {
         "model": "core.Slot",
         "pk": 320,
         "fields": {
-            "uuid": "80a5142a-a5b2-4477-ad76-c005bf387cac",
-            "parking_lot": "64aa7644-51a1-4bab-8e53-83e92c22413d",
+            "uuid": "ebc3dbc5-0898-4752-8f11-126bc232a3bc",
+            "parking_lot": "7a1d3062-b06f-490f-acba-43ce2a1f2120",
             "level": 3,
             "slot_number": "LV3-30",
             "latitude": null,
             "longitude": null,
-            "occupied": false
+            "occupied": false,
+            "reserved": false,
+            "reserve_id": null
         }
     }
 ]

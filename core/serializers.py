@@ -71,6 +71,12 @@ class ParkingLotSerializer(serializers.ModelSerializer):
             'slots'
             ]
         
+    def to_representation(self, instance):
+        data = super().to_representation(instance)
+        # Modify the 'image' field to be a relative URL
+        data['image'] = instance.image.url if instance.image else None
+        return data
+        
     def validate(self, data):
         lat = data.get('latitude')
         lon = data.get('longitude')

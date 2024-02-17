@@ -168,7 +168,7 @@ class ReserveSlot(APIView):
     def post(self, request, slot_id, user_id):
         slot = get_object_or_404(Slot, uuid=slot_id)
         if slot.occupied:
-            return Response({"detail": "This slot is already occupied by another driver"})
+            return Response({"detail": "This slot is already occupied by another driver"}, status=status.HTTP_400_BAD_REQUEST)
         elif slot.reserved:
             return Response({"detail": "This slot is already reserved for another driver"}, status=status.HTTP_400_BAD_REQUEST)
         else:
@@ -177,7 +177,7 @@ class ReserveSlot(APIView):
             slot.reserved = True 
             slot.save()
 
-            return Response({"detail": "You have reserved this slot"}, status=status.HTTP_400_BAD_REQUEST)
+            return Response({"detail": "You have reserved this slot"}, status=status.HTTP_200_OK)
         
 class CancelReservation(APIView):
     def post(self, request, slot_id, user_id):

@@ -127,7 +127,7 @@ class ParkingSessionSerializer(serializers.ModelSerializer):
         if obj.timestamp_end:
             return hours_between_timestamps(obj.timestamp_start, obj.timestamp_end) * obj.slot.parking_lot.rate 
         else:
-            return None
+            return 0
     
     def get_parked_on(self, obj):
         return convert_timestamp(obj.timestamp_start)

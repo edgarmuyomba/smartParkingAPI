@@ -80,6 +80,7 @@ class ParkingSessions(generics.ListAPIView):
 
     def get_queryset(self):
         return super().get_queryset()[:20]  # temporary
+        # return ParkingSession.objects.filter()
 
 
 class UserSessions(generics.ListAPIView):

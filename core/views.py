@@ -74,6 +74,12 @@ class SlotDetails(generics.RetrieveAPIView):
     lookup_field = 'uuid'
 
 
+class SlotStatus(APIView):
+    def get(self, request, uuid):
+        slot = get_object_or_404(Slot, uuid=uuid)
+        return Response({"detail": slot.occupied}, status=status.HTTP_200_OK)
+    
+
 class ParkingSessions(generics.ListAPIView):
     queryset = ParkingSession.objects.all()
     serializer_class = ParkingSessionSerializer

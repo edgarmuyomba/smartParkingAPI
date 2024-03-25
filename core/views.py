@@ -77,7 +77,12 @@ class SlotDetails(generics.RetrieveAPIView):
 class SlotStatus(APIView):
     def get(self, request, uuid):
         slot = get_object_or_404(Slot, uuid=uuid)
-        return Response({"detail": slot.occupied}, status=status.HTTP_200_OK)
+        if not slot.occupied:
+            # slot is empty, successful response
+            return Response({"detail": slot.occupied}, status=status.HTTP_200_OK)
+        else:
+            # slot if occupied, unsuccessful response
+            return Response({"detail": slot.occupied}, status=status.HTTP_400_BAD_REQUEST)
     
 
 class ParkingSessions(generics.ListAPIView):

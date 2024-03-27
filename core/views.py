@@ -280,6 +280,9 @@ class DeleteSensor(generics.DestroyAPIView):
 class Users(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
+    
+    def get_queryset(self):
+        return super().get_queryset()[:20] 
 
 
 class CreateUser(generics.CreateAPIView):
